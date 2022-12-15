@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={Maxwell} alt="Maxwell Wang" width="600" height="500" />
-        <p>
-          Maxwell Wang
-        </p>
+        <h6>Maxwell Wang</h6>
+        <p>Aspiring Full-Stack Developer</p>
       </header>
+      
     </div>
   );
 }
