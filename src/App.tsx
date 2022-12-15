@@ -1,23 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import Maxwell from "./assets/MaxWang.jpg";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Maxwell} alt="Maxwell Wang" width="600" height="500" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Maxwell Wang
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
