@@ -2,21 +2,61 @@
 > maxwangdev@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/App.test.tsx
-  ✓ Shows name on website (32 ms)
-  ✓ There exists am image shown on the homepage (43 ms)
-  ✓ There is a description of what I want to do (5 ms)
+  console.warn
+    No routes matched location "/"
 
---------------------|---------|----------|---------|---------|-------------------
-File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
---------------------|---------|----------|---------|---------|-------------------
-All files           |    8.33 |        0 |   33.33 |    8.33 |                   
- App.tsx            |     100 |      100 |     100 |     100 |                   
- index.tsx          |       0 |      100 |     100 |       0 | 7-19              
- reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
---------------------|---------|----------|---------|---------|-------------------
+      3 | import App from './App';
+      4 | test('Shows name on website', () => {
+    > 5 |   render(<App />);
+        |         ^
+      6 |   const linkElement = screen.getByText(/Maxwell Wang/);
+      7 |   expect(linkElement).toBeInTheDocument();
+      8 | });
+
+      at Object.warning (node_modules/@remix-run/router/utils.ts:780:49)
+      at useRoutes (node_modules/react-router/lib/hooks.tsx:387:5)
+      at Routes (node_modules/react-router/lib/components.tsx:384:10)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:16305:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:20074:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:21587:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27426:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26560:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26466:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26434:7)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25738:74)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:63:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:159:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:246:10)
+      at Object.<anonymous> (src/App.test.tsx:5:9)
+      at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
+      at runJest (node_modules/@jest/core/build/runJest.js:404:19)
+      at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
+      at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
+
+PASS src/App.test.tsx
+  ✓ Shows name on website (113 ms)
+
+---------------------|---------|----------|---------|---------|-------------------
+File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------|---------|----------|---------|---------|-------------------
+All files            |    9.37 |        0 |   15.38 |      10 |                   
+ src                 |    8.33 |        0 |   33.33 |    8.33 |                   
+  App.tsx            |     100 |      100 |     100 |     100 |                   
+  index.tsx          |       0 |      100 |     100 |       0 | 7-19              
+  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
+ src/components      |      10 |        0 |      10 |   11.11 |                   
+  AboutMe.tsx        |       0 |      100 |       0 |       0 | 6                 
+  Accordion.tsx      |       0 |        0 |       0 |       0 | 6-13              
+  AccordionItem.tsx  |       0 |        0 |       0 |       0 | 6-19              
+  Languages.tsx      |       0 |      100 |       0 |       0 | 9-128             
+  ViewNavbar.tsx     |     100 |      100 |     100 |     100 |                   
+ src/components/data |       0 |        0 |       0 |       0 |                   
+  LanguagesType.ts   |       0 |        0 |       0 |       0 |                   
+---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 passed, 1 total
-Tests:       3 passed, 3 total
+Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        1.809 s
+Time:        2.245 s
 Ran all test suites.
