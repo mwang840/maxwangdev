@@ -36,7 +36,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 PASS src/App.test.tsx
-  ✓ Shows name on website (113 ms)
+  ✓ Shows name on website (171 ms)
 
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
@@ -50,7 +50,7 @@ All files            |    9.37 |        0 |   15.38 |      10 |
   AboutMe.tsx        |       0 |      100 |       0 |       0 | 6                 
   Accordion.tsx      |       0 |        0 |       0 |       0 | 6-13              
   AccordionItem.tsx  |       0 |        0 |       0 |       0 | 6-19              
-  Languages.tsx      |       0 |      100 |       0 |       0 | 9-128             
+  Languages.tsx      |       0 |      100 |       0 |       0 | 9-132             
   ViewNavbar.tsx     |     100 |      100 |     100 |     100 |                   
  src/components/data |       0 |        0 |       0 |       0 |                   
   LanguagesType.ts   |       0 |        0 |       0 |       0 |                   
@@ -58,5 +58,5 @@ All files            |    9.37 |        0 |   15.38 |      10 |
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        2.245 s
+Time:        2.873 s
 Ran all test suites.
