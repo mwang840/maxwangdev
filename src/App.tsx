@@ -1,17 +1,23 @@
 import React from 'react';
-import Maxwell from "./assets/MaxWang.jpg";
+//import Maxwell from "./assets/MaxWang.jpg";
+import { ViewNavbar } from './components/ViewNavbar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-
+import { AboutMe } from './components/AboutMe';
+import { Languages } from './components/Languages';
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={Maxwell} alt="Maxwell Wang" width="600" height="500" />
-        <h6>Maxwell Wang</h6>
-        <p>Aspiring Full-Stack Developer</p>
-      </header>
-      
-    </div>
+    <>
+    <h1>Maxwell Wang</h1>
+       <BrowserRouter>
+       <ViewNavbar/>
+        <Routes>
+            <Route path="/aboutme" element={<AboutMe/>}/>
+            <Route path="/languages" element={<Languages/>}/>
+        </Routes>
+        </BrowserRouter>
+    </>
   );
 }
 
