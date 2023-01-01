@@ -1,0 +1,12 @@
+p {
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    float: none;
+    text-align: left;
+    text-indent: 5%;
+}
+
+Accordion{
+    font-weight: 200;
+}

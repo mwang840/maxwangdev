@@ -7,11 +7,11 @@ export function Accordion({ items }: {items: Array<AcordionData>}): JSX.Element{
     const btnOnClick = (index: number) =>{
         setCurrentIndex((currentVal)=>currentVal !== index ? index : -1);
     };
-    return <ul className="accordion">
+    return <ol className="accordion">
         {
             items.map((item, index)=>(
                 <AccordionItem key={index} data={item} isOpen={index === currentIndex} btnOnClick={()=>btnOnClick(index)}/>
             ))
         }
-    </ul>;
+    </ol>;
 }
