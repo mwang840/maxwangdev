@@ -2,23 +2,23 @@
     "links":[
         {
             "label": "Home",
-            "href": "maxwangdev/home"
+            "href": "/home"
         },
         {
             "label": "About Me",
-            "href": "maxwangdev/aboutme"
+            "href": "/aboutme"
         },
         {
             "label" : "Languages",
-            "href": "maxwangdev/languages"
+            "href": "/languages"
         },
         {
             "label": "Projects",
-            "href": "maxwangdev/projects"
+            "href": "/projects"
         },
         {
             "label": "Contact",
-            "href": "maxwangdev/contact"
+            "href": "/contact"
         }
     ]
 }
