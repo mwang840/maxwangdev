@@ -17,8 +17,17 @@ img {
 }
 
 a{
+    display: block;
     font-weight: 200;
-    color: blue;
+    color: green;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-left: 10px;
+    text-align: center;
+    padding: 15px;
+    list-style-type: none;
+    align-items: center;
+    overflow: hidden;
 }
 
 p{

@@ -1,21 +1,19 @@
 import React  from "react";
-//import  "./Languages.css";
-//import { ListOfLanguages } from "./data/ListOfLanguages";
-//import {Accordion} from "react-bootstrap"
 import { Accordion } from "./Accordion";
-//import { Layout } from "./Layout";
+import "./Languages.css";
+import language from "./assets/programming_languages.jpg";
 export function Languages(): JSX.Element{
 
     const languageItems = [
         {
             title: "Java",
             content: (
-            <div>
-                <p>Java was the first Object-Oriented programming language I learned in high school (2019). 
+                <div>
+                    <p>Java was the first Object-Oriented programming language I learned in high school (2019). 
                 The language also introduced me towards basic computer concepts such as recursion, classes, inheritance, and polymorphism. 
                 Despite it being one of my favorite languages, I have not utilized it that much, but I am eager to dip my toes into more Java-based opportunities.
-                </p>
-            </div>
+                    </p>
+                </div>
             )
         },
         {
@@ -34,12 +32,12 @@ export function Languages(): JSX.Element{
         {
             title: "C++",
             content: (
-            <div>
-                <p>C++ was another language, I picked up. A little bit better than C, learning the language helped me understand a lot about memory management.
+                <div>
+                    <p>C++ was another language, I picked up. A little bit better than C, learning the language helped me understand a lot about memory management.
                 I also picked up data structures that ranged from regular arrays to hashmaps. 
                 In a UD-Competitive Programming Club, I used C++ to learn and apply different kinds of algorithms and data structures such as DP, Sorting algorithms, Greedy algorithms, Graphs, and Decision Trees.
-                </p>
-            </div>
+                    </p>
+                </div>
             )
         },
         {
@@ -131,12 +129,13 @@ export function Languages(): JSX.Element{
     ];
     return(
 
-    <div>
-        <h1>Languages</h1>
-        <div className="container">
-            <Accordion items={languageItems}></Accordion>
+        <div>
+            <h1>Languages</h1>
+            <img src={language} alt="Programming Language" className="center"></img>
+            <div className="container">
+                <Accordion items={languageItems}></Accordion>
+            </div>
         </div>
-    </div>
     );
 }
 
