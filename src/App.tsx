@@ -13,8 +13,8 @@ function App() {
             <BrowserRouter>
                 <ViewNavbar/>
                 <Routes>
-                    <Route path="maxwangdev/aboutme" element={<AboutMe/>}/>
-                    <Route path="maxwangdev/languages" element={<Languages/>}/>
+                    <Route path="/aboutme" element={<AboutMe/>}/>
+                    <Route path="/languages" element={<Languages/>}/>
                 </Routes>
             </BrowserRouter>
         </>
