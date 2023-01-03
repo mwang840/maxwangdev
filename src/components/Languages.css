@@ -10,3 +10,9 @@ p {
 Accordion{
     font-weight: 200;
 }
+
+img {
+    align-items: center;
+    max-width: 320px;
+    height: auto;
+}
