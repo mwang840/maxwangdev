@@ -17,7 +17,7 @@ export function AccordionItem({data, isOpen, btnOnClick}: {data:AcordionData, is
     });
 
     return(
-        <li className={`accordion-item ${isOpen ? 'active' : ''}`}>
+        <li className={`accordion-item ${isOpen ? "active" : ""}`}>
             <h2 className="accordion-item-title">
                 <button className="accordion-item-btn" onClick={btnOnClick}>{data.title}</button>
             </h2>
