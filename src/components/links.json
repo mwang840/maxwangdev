@@ -1,0 +1,24 @@
+{
+    "links":[
+        {
+            "label": "Home",
+            "href": "/home"
+        },
+        {
+            "label": "About Me",
+            "href": "/aboutme"
+        },
+        {
+            "label" : "Languages",
+            "href": "/languages"
+        },
+        {
+            "label": "Projects",
+            "href": "/projects"
+        },
+        {
+            "label": "Contact",
+            "href": "/contact"
+        }
+    ]
+}
