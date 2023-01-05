@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/maxwangdev/static/css/main.05fc0983.css",
+    "main.css": "/maxwangdev/static/css/main.6ef28923.css",
     "main.js": "/maxwangdev/static/js/main.c6172485.js",
     "static/js/787.e4d9010d.chunk.js": "/maxwangdev/static/js/787.e4d9010d.chunk.js",
     "static/media/cis-scheduler.png": "/maxwangdev/static/media/cis-scheduler.c2cdf4cc2ed9a342a2ad.png",
     "static/media/programming_languages.jpg": "/maxwangdev/static/media/programming_languages.057851ea84ff8172e9e5.jpg",
     "static/media/MaxWang.jpg": "/maxwangdev/static/media/MaxWang.8eaf9af3fd4011eedef3.jpg",
     "index.html": "/maxwangdev/index.html",
-    "main.05fc0983.css.map": "/maxwangdev/static/css/main.05fc0983.css.map",
+    "main.6ef28923.css.map": "/maxwangdev/static/css/main.6ef28923.css.map",
     "main.c6172485.js.map": "/maxwangdev/static/js/main.c6172485.js.map",
     "787.e4d9010d.chunk.js.map": "/maxwangdev/static/js/787.e4d9010d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05fc0983.css",
+    "static/css/main.6ef28923.css",
     "static/js/main.c6172485.js"
   ]
 }
