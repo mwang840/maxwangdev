@@ -1,0 +1,15 @@
+Button{
+    height: 40%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: 60%;
+    background-color:lightblue;
+    color:red;
+    padding: 15px 30px;
+}
+
+Modal.p{
+    text-align: center;
+    color:black;
+}
