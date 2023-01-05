@@ -10,3 +10,12 @@ p {
 Accordion{
     font-weight: 200;
 }
+
+.center-image{
+   display:flex;
+   justify-content:center; /* horizontally center */
+   align-items:center;    /* vertically center */
+   height:300px;
+   width:300px;
+   position: relative;
+}
