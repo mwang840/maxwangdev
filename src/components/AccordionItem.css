@@ -1,5 +1,5 @@
 .accordion-item {
-    border: 1px solid orange;
+    border: 1px solid aquamarine;
 }
 
 .accordion-item:not(:first-of-type){
@@ -16,7 +16,7 @@
     width:100%;
     display: flex;
     align-items: center;
-    background-color: green;
+    background-color: lightblue;
     border: 0;
     padding: 15px 20px;
     font-size: 15px;
