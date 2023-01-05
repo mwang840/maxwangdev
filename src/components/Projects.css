@@ -1,0 +1,17 @@
+img {
+    align-items: left;
+}
+
+.center{
+    height: 30%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: 60%;
+}
+
+
+h2{
+    align-items: center;
+    text-align: center;
+}
