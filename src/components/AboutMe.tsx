@@ -5,7 +5,7 @@ import "./AboutMe.css";
 export function AboutMe(): JSX.Element{
     return(<div>
         <h1>About Me</h1>
-        <img src={Maxwell} alt="Maxwell Wang" className="center"></img>
+        <img src={Maxwell} alt="Maxwell Wang" className="about-me-image"></img>
         <p> Greetings, my name is Maxwell Wang and I am a junior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware. 
         I am interested in focusing in software engineering, web development, artificial intelligence and machine learning.
         Further, I have a passion for learning Computer Science and learning as much as I can about the world around me with Computer Science applications.

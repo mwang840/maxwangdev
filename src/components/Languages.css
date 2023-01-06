@@ -12,11 +12,10 @@ Accordion{
 }
 
 
-.center-image{
-   display:flex;
-   justify-content:center; /* horizontally center */
-   align-items:center;    /* vertically center */
-   height:300px;
-   width:300px;
-   position: relative;
+.about-me-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45%;
+    width: 35%;
 }

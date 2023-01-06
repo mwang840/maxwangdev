@@ -131,7 +131,7 @@ export function Languages(): JSX.Element{
 
         <div>
             <h1>Languages</h1>
-            <img src={language} alt="Programming Language" className="center-image"></img>
+            <img src={language} alt="Programming Language" className="about-me-image"></img>
             <div className="container">
                 <Accordion items={languageItems}></Accordion>
             </div>
