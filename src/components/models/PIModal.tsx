@@ -18,7 +18,7 @@ export function PIModal(): JSX.Element{
             Close
                 </Button>
                 <Button variant="primary" onClick={handleClose}>
-                    <a href="https://github.com/mwang840/React-In-A-nutshell">View Source</a>
+                    <a href="https://github.com/mwang840/AssemblyProjects">View Source</a>
                 </Button>
             </Modal.Footer>
         </Modal>
