@@ -1,7 +1,7 @@
 import React from "react";
 import { AboutMe } from "../AboutMe";
 import { render, screen } from "@testing-library/react";
-test("Shows name on website", () => {
+test("Shows aboutme on website", () => {
     render(<AboutMe/>);
     const linkElement = screen.getByText(/About Me/);
     expect(linkElement).toBeInTheDocument();
