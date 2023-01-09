@@ -8,6 +8,6 @@ export function Contacts(): JSX.Element{
         <a href="https://github.com/mwang840"><FaGithub size={70} color="black"/></a>
         <a href="https://www.linkedin.com/in/maxwell-wang-08ws/"><FaLinkedin size={70} color="aqua"/></a> 
         <a href="https://www.instagram.com/iammaxwellw/"><FaInstagram size={70} color="purple"/></a>
-        <a href="mailto:maxwell.y.wang@gmail.com, maxwang@udel.edu"><FaMailBulk size={70} color="gold"/></a>
+        <a href="mailto:maxwell.y.wang@gmail.com, maxwang@udel.edu"><FaMailBulk size={71} color="gold"/></a>
     </div>;
 }
