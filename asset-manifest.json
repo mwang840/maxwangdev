@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maxwangdev/static/css/main.292c10a1.css",
-    "main.js": "/maxwangdev/static/js/main.7d7fdbf2.js",
+    "main.js": "/maxwangdev/static/js/main.917f420e.js",
     "static/js/787.e4d9010d.chunk.js": "/maxwangdev/static/js/787.e4d9010d.chunk.js",
     "static/media/raspberrypi.jpg": "/maxwangdev/static/media/raspberrypi.48e2cb5eddfe043b25a1.jpg",
     "static/media/reactinANutshell.png": "/maxwangdev/static/media/reactinANutshell.7c69415094e2972d6d1f.png",
@@ -10,11 +10,11 @@
     "static/media/MaxWang.jpg": "/maxwangdev/static/media/MaxWang.8eaf9af3fd4011eedef3.jpg",
     "index.html": "/maxwangdev/index.html",
     "main.292c10a1.css.map": "/maxwangdev/static/css/main.292c10a1.css.map",
-    "main.7d7fdbf2.js.map": "/maxwangdev/static/js/main.7d7fdbf2.js.map",
+    "main.917f420e.js.map": "/maxwangdev/static/js/main.917f420e.js.map",
     "787.e4d9010d.chunk.js.map": "/maxwangdev/static/js/787.e4d9010d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.292c10a1.css",
-    "static/js/main.7d7fdbf2.js"
+    "static/js/main.917f420e.js"
   ]
 }
