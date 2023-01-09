@@ -2,16 +2,32 @@ img {
     align-items: left;
 }
 
-.center{
-    height: 30%;
-    width: 20%;
+.cis-center{
+    height: 40%;
+    width: 40%;
     display: block;
     margin-left: auto;
-    margin-right: 60%;
+    margin-right: auto;
 }
 
+.react-center{
+    height: 80%;
+    width: 30%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
 
-h2{
+.pi-center{
+    height: 80%;
+    width: 30%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h3{
     align-items: center;
     text-align: center;
+    font-size: medium;
 }

@@ -1,0 +1,16 @@
+Button{
+    height: 40%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:lightblue;
+    color:red;
+    padding: 15px 30px;
+}
+
+Modal{
+    text-align: center;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
