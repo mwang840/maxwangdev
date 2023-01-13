@@ -6,18 +6,22 @@ export function AboutMe(): JSX.Element{
     return(<div>
         <h1>About Me</h1>
         <img src={Maxwell} alt="Maxwell Wang" className="about-me-image"></img>
-        <p> Greetings, my name is Maxwell Wang and I am a junior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware. 
-        I am interested in focusing in software engineering, web development, artificial intelligence and machine learning.
-        Further, I have a passion for learning Computer Science and learning as much as I can about the world around me with Computer Science applications.
+        <p> Greetings, my name is Maxwell Wang and I am a junior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware.</p>
+        <p>I am interested in focusing in software engineering, web development, artificial intelligence and machine learning.</p>
+        <p>Further, I have a passion for learning Computer Science and learning as much as I can about the world around me with Computer Science applications.
         </p>
         <p>Outside of Computer Science here are some things outside of Computer Science that I like to do:</p>
-        <ol>
-            <li><p>Chess: At a very young age, I have picked up an interest in playing chess to improve my problem solving and strategy development skills.</p> 
-                <p>I have participated in chess clubs throughout the school year (grade school and college)</p></li>
-            <li><p>Exercising: At grade school, I was on the mens varsity soccer team and played soccer as a forward.</p>
-                <p>Despite not being a regular starter, I have grown into weightlifting and started going to the gym to improve my strength to become stronger everyday.</p></li>
-            <li><p>Mathmatics: I have a strong passion for mathmatics and participated in small math competitions. I grew a strong interest in Khan Academy and started to teach myself calculus as well as take more math classes in grade school.</p></li>
-            <li><p>Traveling: I enjoyed traveling to open my perspective to the world around me. I hope to explore more around the world in the future</p></li>
-        </ol>
+        <p>Chess: At a very young age, I have picked up an interest in playing chess to improve my problem-solving and strategy development skills.</p> 
+        <p>I have participated in chess clubs throughout the school year (grade school and college) and I am open to new chess strategies.
+             I also have a chess.com account if anyone likes to follow me and play me in chess (see contact page)♔.</p> 
+        <p>Exercising: At grade school, I was on the mens varsity soccer team and played soccer as a forward. 
+            After soccer, I have grown into weightlifting and started going to the gym to improve my strength to become stronger everyday.</p>
+        <p>Hiking: My first experience in hiking was when my family first traveled to the Grand Canyon and hiked on the trails.</p>
+        <p> Even though, I did not like the hike as I was tired easily, I eventually started to enjoy hiking later in Southern Utah visiting national parks such as Arches, Zion, and others and enjoyed the nature and the scenery there.</p>
+        <p>    Recently, I have been hiking locally even seeing the Lehigh Gorge up in PA.</p>
+        <p>Aviation: When I started traveling to see family in Taiwan, I usually travel by plane. From this, it opened up my knowledge of aviation, knowing 
+            certain types of planes and looking at airports (artitecture, size and runways).</p>
+        <p> I am hoping I can travel more to explore my aviation side passion.</p>     
+        
     </div>);
 }

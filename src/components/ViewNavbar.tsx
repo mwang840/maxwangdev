@@ -1,36 +1,14 @@
 import React from "react";
-//import {Link} from "react-router-dom";
-import styles from "./ViewNavbarModule.css";
-import data from "./links.json";
-const linkToString = JSON.stringify(data);
-const links = JSON.parse(linkToString).links;
-
-type Link = {
-  label: string;
-  href: string;
-};
-
-const Links: React.FC<{links: Link[]}> = ({links})=>{
-    return(
-        <div className={styles["links-container"]}>
-            {links.map((link: Link)=>{
-                return(
-                    <div key={link.href} className={styles["link"]}>
-                        <a href={link.href}>
-                            {link.label}
-                        </a>
-                    </div>
-                );
-            })}
-        </div>);
-};
+import  "./ViewNavbarModule.css";
+import { NavLink } from "react-router-dom";
 
 
-// eslint-disable-next-line @typescript-eslint/ban-types
-export const ViewNavbar: React.FC<{}> = () => {
-    return (
-        <nav className={styles.navbar}>
-            <Links links={links}/>
-        </nav> 
-    );
-};
+export function ViewNavbar(): JSX.Element{
+    return <nav className="navbar-container">
+        <NavLink to="/aboutme">About Me</NavLink>
+        <NavLink to="/languages">Languages</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+    </nav>;
+}
+
