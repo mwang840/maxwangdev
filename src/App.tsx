@@ -1,5 +1,4 @@
 import React from "react";
-//import Maxwell from "./assets/MaxWang.jpg";
 import { ViewNavbar } from "./components/ViewNavbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
