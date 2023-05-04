@@ -1,14 +1,16 @@
 import React from "react";
-import  "./ViewNavbarModule.css";
+import "./ViewNavbarModule.css";
 import { NavLink } from "react-router-dom";
 
 
 export function ViewNavbar(): JSX.Element{
-    return <nav className="navbar-container">
-        <NavLink to="/aboutme">About Me</NavLink>
-        <NavLink to="/languages">Languages</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-    </nav>;
+    return (
+        <nav className="navbar-container">
+            <NavLink to="/aboutme" style={{textDecoration: "none", color: "black", fontSize: "40px", fontFamily: "Georgia", borderRadius: "10px", backgroundColor:"white"}}>About Me</NavLink>
+            <NavLink to="/languages"style={{textDecoration: "none", color: "black", fontSize: "40px", fontFamily: "Georgia", backgroundColor: "white", borderRadius: "10px"}}>Languages</NavLink>
+            <NavLink to="/projects"style={{textDecoration: "none", color: "black", fontSize: "40px", fontFamily: "Georgia", backgroundColor: "white", borderRadius: "10px"}}>Projects</NavLink>
+            <NavLink to="/contact"style={{textDecoration: "none", color: "black", fontSize: "40px", fontFamily: "Georgia", backgroundColor: "white", borderRadius: "10px"}}>Contact</NavLink>
+        </nav>
+    );
 }
 
