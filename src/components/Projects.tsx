@@ -17,7 +17,7 @@ export function Projects():JSX.Element{
         <h3>Feel free to check out the projects that I have done whether it was in a group setting or not. Click on the links below each image to learn more!</h3>
         <Container>
             <img src={scheduler} alt="Course Scheduler" className="cis-center"></img> <CISModal/>
-            <img src={bucanner} alt="Buccaneer"></img><BuccaneerModal/>
+            <img src={bucanner} alt="Buccaneer" className="buccaneer-center"></img><BuccaneerModal/>
             <img src={react} alt="React" className="react-center"></img><RINMODAL/>
             <img src={pi} alt="Raspberry Pi" className="pi-center"></img><PIModal/>
             <img src={duckies} alt="duck game" className="duck-center"></img><DuckModal/>
