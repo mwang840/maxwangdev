@@ -1,6 +1,14 @@
 img {
     align-items: left;
 }
+ .buccaneer-center{
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
 
 .cis-center{
     height: 40%;
