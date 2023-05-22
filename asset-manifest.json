@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/maxwangdev/static/css/main.c5a4cd6b.css",
-    "main.js": "/maxwangdev/static/js/main.80c6c518.js",
+    "main.css": "/maxwangdev/static/css/main.bb456e44.css",
+    "main.js": "/maxwangdev/static/js/main.e082d450.js",
     "static/js/787.e4d9010d.chunk.js": "/maxwangdev/static/js/787.e4d9010d.chunk.js",
+    "static/media/Buccaneer.png": "/maxwangdev/static/media/Buccaneer.c2a6e58ba2f83f00c6b4.png",
     "static/media/raspberrypi.jpg": "/maxwangdev/static/media/raspberrypi.48e2cb5eddfe043b25a1.jpg",
     "static/media/reactinANutshell.png": "/maxwangdev/static/media/reactinANutshell.7c69415094e2972d6d1f.png",
     "static/media/cis-scheduler.png": "/maxwangdev/static/media/cis-scheduler.c2cdf4cc2ed9a342a2ad.png",
+    "static/media/duckies.png": "/maxwangdev/static/media/duckies.29a1fb9c7f494f1896da.png",
     "static/media/programming_languages.jpg": "/maxwangdev/static/media/programming_languages.da2e24105ad2ddfac6a8.jpg",
     "static/media/MaxWang.jpg": "/maxwangdev/static/media/MaxWang.8eaf9af3fd4011eedef3.jpg",
     "index.html": "/maxwangdev/index.html",
-    "main.c5a4cd6b.css.map": "/maxwangdev/static/css/main.c5a4cd6b.css.map",
-    "main.80c6c518.js.map": "/maxwangdev/static/js/main.80c6c518.js.map",
+    "main.bb456e44.css.map": "/maxwangdev/static/css/main.bb456e44.css.map",
+    "main.e082d450.js.map": "/maxwangdev/static/js/main.e082d450.js.map",
     "787.e4d9010d.chunk.js.map": "/maxwangdev/static/js/787.e4d9010d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5a4cd6b.css",
-    "static/js/main.80c6c518.js"
+    "static/css/main.bb456e44.css",
+    "static/js/main.e082d450.js"
   ]
 }
