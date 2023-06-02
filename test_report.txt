@@ -2,9 +2,172 @@
 > maxwangdev@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/components/tests/AboutMe.test.tsx
+FAIL src/components/tests/AboutMe.test.tsx
+  ● Shows aboutme on website
+
+    TestingLibraryElementError: Unable to find an element with the text: /About Me/. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"Typewriter"[39m
+            [33mdata-testid[39m=[32m"typewriter-wrapper"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Typewriter__wrapper"[39m
+            [36m/>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Typewriter__cursor"[39m
+            [36m>[39m
+              [0m|[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<img[39m
+            [33malt[39m=[32m"Maxwell Wang"[39m
+            [33mclass[39m=[32m"about-me-image"[39m
+            [33msrc[39m=[32m"MaxWang.jpg"[39m
+          [36m/>[39m
+          [36m<p>[39m
+            [0mGreetings, my name is Maxwell Wang and I am a senior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mI am interested in focusing in software engineering, web development, artificial intelligence and machine learning.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mFurther, I have a passion for learning Computer Science and learning as much as I can about the world around me with Computer Science applications.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mOutside of Computer Science here are some things outside of Computer Science that I like to do:[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mChess: At a very young age, I have picked up an interest in playing chess to improve my problem-solving and strategy development skills.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mI have participated in chess clubs throughout the school year (grade school and college) and I am open to new chess strategies. I also have a chess.com account if anyone likes to follow me and play me in chess (see contact page)♔.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mExercising: At grade school, I was on the mens varsity soccer team and played soccer as a forward. After soccer, I have grown into weightlifting and started going to the gym to improve my strength to become stronger everyday.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mHiking: My first experience in hiking was when my family first traveled to the Grand Canyon and hiked on the trails.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0m [0m
+            [0mEven though, I did not like the hike as I was tired easily, I eventually started to enjoy hiking later in Southern Utah visiting national parks such as Arches, Zion, and others and enjoyed the nature and the scenery there.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0m [0m
+            [0mRecently, I have been hiking locally even seeing the Lehigh Gorge up in PA.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mAviation: When I started traveling to see family in Taiwan, I usually travel by plane. From this, it opened up my knowledge of aviation, knowing certain types of planes and looking at airports (artitecture, size and runways).[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0m I am hoping I can travel more to explore my aviation side passion.[0m
+          [36m</p>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      4 | test("Shows aboutme on website", () => {
+      5 |     render(<AboutMe/>);
+    > 6 |     const linkElement = screen.getByText(/About Me/);
+        |                                ^
+      7 |     expect(linkElement).toBeInTheDocument();
+      8 | });
+      9 |
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:40:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/components/tests/AboutMe.test.tsx:6:32)
+
+  ● User should see what I like to do besides computer science
+
+    TestingLibraryElementError: Unable to find an element with the text: /Greetings, my name is Maxwell Wang and I am a junior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware/. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"Typewriter"[39m
+            [33mdata-testid[39m=[32m"typewriter-wrapper"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Typewriter__wrapper"[39m
+            [36m/>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Typewriter__cursor"[39m
+            [36m>[39m
+              [0m|[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<img[39m
+            [33malt[39m=[32m"Maxwell Wang"[39m
+            [33mclass[39m=[32m"about-me-image"[39m
+            [33msrc[39m=[32m"MaxWang.jpg"[39m
+          [36m/>[39m
+          [36m<p>[39m
+            [0mGreetings, my name is Maxwell Wang and I am a senior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mI am interested in focusing in software engineering, web development, artificial intelligence and machine learning.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mFurther, I have a passion for learning Computer Science and learning as much as I can about the world around me with Computer Science applications.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mOutside of Computer Science here are some things outside of Computer Science that I like to do:[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mChess: At a very young age, I have picked up an interest in playing chess to improve my problem-solving and strategy development skills.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mI have participated in chess clubs throughout the school year (grade school and college) and I am open to new chess strategies. I also have a chess.com account if anyone likes to follow me and play me in chess (see contact page)♔.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mExercising: At grade school, I was on the mens varsity soccer team and played soccer as a forward. After soccer, I have grown into weightlifting and started going to the gym to improve my strength to become stronger everyday.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mHiking: My first experience in hiking was when my family first traveled to the Grand Canyon and hiked on the trails.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0m [0m
+            [0mEven though, I did not like the hike as I was tired easily, I eventually started to enjoy hiking later in Southern Utah visiting national parks such as Arches, Zion, and others and enjoyed the nature and the scenery there.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0m [0m
+            [0mRecently, I have been hiking locally even seeing the Lehigh Gorge up in PA.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mAviation: When I started traveling to see family in Taiwan, I usually travel by plane. From this, it opened up my knowledge of aviation, knowing certain types of planes and looking at airports (artitecture, size and runways).[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0m I am hoping I can travel more to explore my aviation side passion.[0m
+          [36m</p>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      17 | test("User should see what I like to do besides computer science", ()=>{
+      18 |     render(<AboutMe/>);
+    > 19 |     const brief = screen.getByText(/Greetings, my name is Maxwell Wang and I am a junior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware/);
+         |                          ^
+      20 |     expect(brief).toBeInTheDocument();
+      21 | });
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:40:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/components/tests/AboutMe.test.tsx:19:26)
+
 PASS src/components/tests/Projects.test.tsx
-PASS src/App.test.tsx
+FAIL src/App.test.tsx
   ● Console
 
     console.warn
@@ -40,20 +203,97 @@ PASS src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
+  ● Shows name on website
+
+    TestingLibraryElementError: Unable to find an element with the text: /Maxwell Wang/. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"App"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"Typewriter"[39m
+            [33mdata-testid[39m=[32m"typewriter-wrapper"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Typewriter__wrapper"[39m
+            [36m/>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"Typewriter__cursor"[39m
+            [36m>[39m
+              [0m|[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<nav[39m
+            [33mclass[39m=[32m"navbar-container"[39m
+          [36m>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m""[39m
+              [33mhref[39m=[32m"/aboutme"[39m
+              [33mstyle[39m=[32m"text-decoration: none; color: black; font-size: 40px; font-family: Georgia; border-radius: 10px; background-color: white;"[39m
+            [36m>[39m
+              [0mAbout Me[0m
+            [36m</a>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m""[39m
+              [33mhref[39m=[32m"/languages"[39m
+              [33mstyle[39m=[32m"text-decoration: none; color: black; font-size: 40px; font-family: Georgia; background-color: white; border-radius: 10px;"[39m
+            [36m>[39m
+              [0mLanguages[0m
+            [36m</a>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m""[39m
+              [33mhref[39m=[32m"/projects"[39m
+              [33mstyle[39m=[32m"text-decoration: none; color: black; font-size: 40px; font-family: Georgia; background-color: white; border-radius: 10px;"[39m
+            [36m>[39m
+              [0mProjects[0m
+            [36m</a>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m""[39m
+              [33mhref[39m=[32m"/contact"[39m
+              [33mstyle[39m=[32m"text-decoration: none; color: black; font-size: 40px; font-family: Georgia; background-color: white; border-radius: 10px;"[39m
+            [36m>[39m
+              [0mContact[0m
+            [36m</a>[39m
+          [36m</nav>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      4 | test("Shows name on website", () => {
+      5 |     render(<App />);
+    > 6 |     const linkElement = screen.getByText(/Maxwell Wang/);
+        |                                ^
+      7 |     expect(linkElement).toBeInTheDocument();
+      8 | });
+      9 |
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:40:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/App.test.tsx:6:32)
+      at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
+      at runJest (node_modules/@jest/core/build/runJest.js:404:19)
+      at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
+      at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
+
 -----------------------|---------|----------|---------|---------|-------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------|---------|----------|---------|---------|-------------------
-All files              |   38.09 |        0 |      30 |   47.05 |                   
- src                   |    8.33 |        0 |   33.33 |    8.33 |                   
+All files              |   39.39 |        0 |   33.33 |   48.14 |                   
+ src                   |   15.38 |        0 |      50 |   15.38 |                   
   App.tsx              |     100 |      100 |     100 |     100 |                   
   index.tsx            |       0 |      100 |     100 |       0 | 7-19              
   reportWebVitals.ts   |       0 |        0 |       0 |       0 | 3-10              
- src/components        |   14.28 |        0 |      25 |   15.78 |                   
+ src/components        |   17.39 |        0 |   28.57 |   19.04 |                   
   AboutMe.tsx          |     100 |      100 |     100 |     100 |                   
   Accordion.tsx        |       0 |        0 |       0 |       0 | 6-13              
   AccordionItem.tsx    |       0 |        0 |       0 |       0 | 6-19              
   Contacts.tsx         |       0 |      100 |       0 |       0 | 6                 
-  Languages.tsx        |       0 |      100 |       0 |       0 | 7-130             
+  Languages.tsx        |       0 |      100 |       0 |       0 | 8-181             
   Projects.tsx         |     100 |      100 |     100 |     100 |                   
   ViewNavbar.tsx       |     100 |      100 |     100 |     100 |                   
  src/components/data   |       0 |        0 |       0 |       0 |                   
@@ -65,9 +305,8 @@ All files              |   38.09 |        0 |      30 |   47.05 |
   PIModal.tsx          |   66.66 |      100 |   33.33 |     100 |                   
   RINModal.tsx         |   66.66 |      100 |   33.33 |     100 |                   
 -----------------------|---------|----------|---------|---------|-------------------
-
-Test Suites: 3 passed, 3 total
-Tests:       5 passed, 5 total
+Test Suites: 2 failed, 1 passed, 3 total
+Tests:       3 failed, 2 passed, 5 total
 Snapshots:   0 total
-Time:        4.084 s
+Time:        5.468 s
 Ran all test suites.
