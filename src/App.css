@@ -1,4 +1,7 @@
 .App {
+  font-family: sans-serif;
+  font-size: 50px;
+  background: beige;
   text-align: center;
 }
 
