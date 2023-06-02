@@ -4,5 +4,12 @@ p {
 
 a {
     align-items: left;
-    
+}
+
+.contact {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: red;
+  background: beige;
+  text-align: center;
 }
