@@ -283,16 +283,16 @@ FAIL src/App.test.tsx
 -----------------------|---------|----------|---------|---------|-------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------|---------|----------|---------|---------|-------------------
-All files              |   39.39 |        0 |   33.33 |   48.14 |                   
+All files              |   36.61 |        0 |   28.94 |   44.06 |                   
  src                   |   15.38 |        0 |      50 |   15.38 |                   
   App.tsx              |     100 |      100 |     100 |     100 |                   
   index.tsx            |       0 |      100 |     100 |       0 | 7-19              
   reportWebVitals.ts   |       0 |        0 |       0 |       0 | 3-10              
- src/components        |   17.39 |        0 |   28.57 |   19.04 |                   
+ src/components        |   14.28 |        0 |   21.05 |   15.38 |                   
   AboutMe.tsx          |     100 |      100 |     100 |     100 |                   
   Accordion.tsx        |       0 |        0 |       0 |       0 | 6-13              
   AccordionItem.tsx    |       0 |        0 |       0 |       0 | 6-19              
-  Contacts.tsx         |       0 |      100 |       0 |       0 | 6                 
+  Contacts.tsx         |       0 |      100 |       0 |       0 | 7-59              
   Languages.tsx        |       0 |      100 |       0 |       0 | 8-181             
   Projects.tsx         |     100 |      100 |     100 |     100 |                   
   ViewNavbar.tsx       |     100 |      100 |     100 |     100 |                   
@@ -308,5 +308,5 @@ All files              |   39.39 |        0 |   33.33 |   48.14 |
 Test Suites: 2 failed, 1 passed, 3 total
 Tests:       3 failed, 2 passed, 5 total
 Snapshots:   0 total
-Time:        5.468 s
+Time:        3.791 s
 Ran all test suites.
