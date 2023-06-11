@@ -42,6 +42,8 @@ a{
 }
 
 p{
-    font-weight: 150;
+    font-weight: 120;
+    font-size: large;
     color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

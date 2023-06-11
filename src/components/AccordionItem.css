@@ -1,7 +1,9 @@
 .accordion-item {
-    border: 1px solid aquamarine;
+    border: 1px solid beige;
 }
-
+.accordion {
+    list-style-type: none;
+}   
 .accordion-item:not(:first-of-type){
     width: 100%;
     margin: 0;
