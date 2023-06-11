@@ -29,44 +29,112 @@ FAIL src/components/tests/AboutMe.test.tsx
             [33mclass[39m=[32m"about-me-image"[39m
             [33msrc[39m=[32m"MaxWang.jpg"[39m
           [36m/>[39m
+          [36m<h1>[39m
+            [0mGreetings[0m
+          [36m</h1>[39m
           [36m<p>[39m
-            [0mGreetings, my name is Maxwell Wang and I am a senior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware.[0m
+            [0mMy name is Maxwell Wang and I am a senior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware.[0m
           [36m</p>[39m
           [36m<p>[39m
-            [0mI am interested in focusing in software engineering, web development, artificial intelligence and machine learning.[0m
+            [0mI am interested in focusing in software engineering, web development, artificial intelligence and machine learning/data science.[0m
           [36m</p>[39m
           [36m<p>[39m
-            [0mFurther, I have a passion for learning Computer Science and learning as much as I can about the world around me with Computer Science applications.[0m
+            [0mAt the University of Delaware, I have already taken or will be taking a lot of computer science courses, each one specializing in their own field.[0m
           [36m</p>[39m
           [36m<p>[39m
-            [0mOutside of Computer Science here are some things outside of Computer Science that I like to do:[0m
+            [0mThe computer science courses include: Software Engineering, Algorithms, Automata Theory, Data Mining, Database Systems, Logic for Programming, Operating Systems, Educational Game Development, Advanced Web Technologies, Computer Vision and Machine Learning[0m
           [36m</p>[39m
-          [36m<p>[39m
-            [0mChess: At a very young age, I have picked up an interest in playing chess to improve my problem-solving and strategy development skills.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mI have participated in chess clubs throughout the school year (grade school and college) and I am open to new chess strategies. I also have a chess.com account if anyone likes to follow me and play me in chess (see contact page)♔.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mExercising: At grade school, I was on the mens varsity soccer team and played soccer as a forward. After soccer, I have grown into weightlifting and started going to the gym to improve my strength to become stronger everyday.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mHiking: My first experience in hiking was when my family first traveled to the Grand Canyon and hiked on the trails.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0m [0m
-            [0mEven though, I did not like the hike as I was tired easily, I eventually started to enjoy hiking later in Southern Utah visiting national parks such as Arches, Zion, and others and enjoyed the nature and the scenery there.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0m [0m
-            [0mRecently, I have been hiking locally even seeing the Lehigh Gorge up in PA.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mAviation: When I started traveling to see family in Taiwan, I usually travel by plane. From this, it opened up my knowledge of aviation, knowing certain types of planes and looking at airports (artitecture, size and runways).[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0m I am hoping I can travel more to explore my aviation side passion.[0m
-          [36m</p>[39m
+          [36m<h1>[39m
+            [0mClick on the dropdown to see activities I do outside of computer science[0m
+          [36m</h1>[39m
+          [36m<ul[39m
+            [33mclass[39m=[32m"accordion"[39m
+          [36m>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"accordion-item "[39m
+            [36m>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"accordion-item-title"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"accordion-item-btn"[39m
+                [36m>[39m
+                  [0mChess[0m
+                [36m</button>[39m
+              [36m</h2>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"accordion-item-container"[39m
+                [33mstyle[39m=[32m"height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"accordion-item-content"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"accordion-item "[39m
+            [36m>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"accordion-item-title"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"accordion-item-btn"[39m
+                [36m>[39m
+                  [0mExercising and Hiking[0m
+                [36m</button>[39m
+              [36m</h2>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"accordion-item-container"[39m
+                [33mstyle[39m=[32m"height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"accordion-item-content"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"accordion-item "[39m
+            [36m>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"accordion-item-title"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"accordion-item-btn"[39m
+                [36m>[39m
+                  [0mTraveling[0m
+                [36m</button>[39m
+              [36m</h2>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"accordion-item-container"[39m
+                [33mstyle[39m=[32m"height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"accordion-item-content"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"accordion-item "[39m
+            [36m>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"accordion-item-title"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"accordion-item-btn"[39m
+                [36m>[39m
+                  [0mAviation[0m
+                [36m</button>[39m
+              [36m</h2>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"accordion-item-container"[39m
+                [33mstyle[39m=[32m"height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"accordion-item-content"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</li>[39m
+          [36m</ul>[39m
         [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -111,44 +179,112 @@ FAIL src/components/tests/AboutMe.test.tsx
             [33mclass[39m=[32m"about-me-image"[39m
             [33msrc[39m=[32m"MaxWang.jpg"[39m
           [36m/>[39m
+          [36m<h1>[39m
+            [0mGreetings[0m
+          [36m</h1>[39m
           [36m<p>[39m
-            [0mGreetings, my name is Maxwell Wang and I am a senior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware.[0m
+            [0mMy name is Maxwell Wang and I am a senior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware.[0m
           [36m</p>[39m
           [36m<p>[39m
-            [0mI am interested in focusing in software engineering, web development, artificial intelligence and machine learning.[0m
+            [0mI am interested in focusing in software engineering, web development, artificial intelligence and machine learning/data science.[0m
           [36m</p>[39m
           [36m<p>[39m
-            [0mFurther, I have a passion for learning Computer Science and learning as much as I can about the world around me with Computer Science applications.[0m
+            [0mAt the University of Delaware, I have already taken or will be taking a lot of computer science courses, each one specializing in their own field.[0m
           [36m</p>[39m
           [36m<p>[39m
-            [0mOutside of Computer Science here are some things outside of Computer Science that I like to do:[0m
+            [0mThe computer science courses include: Software Engineering, Algorithms, Automata Theory, Data Mining, Database Systems, Logic for Programming, Operating Systems, Educational Game Development, Advanced Web Technologies, Computer Vision and Machine Learning[0m
           [36m</p>[39m
-          [36m<p>[39m
-            [0mChess: At a very young age, I have picked up an interest in playing chess to improve my problem-solving and strategy development skills.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mI have participated in chess clubs throughout the school year (grade school and college) and I am open to new chess strategies. I also have a chess.com account if anyone likes to follow me and play me in chess (see contact page)♔.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mExercising: At grade school, I was on the mens varsity soccer team and played soccer as a forward. After soccer, I have grown into weightlifting and started going to the gym to improve my strength to become stronger everyday.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mHiking: My first experience in hiking was when my family first traveled to the Grand Canyon and hiked on the trails.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0m [0m
-            [0mEven though, I did not like the hike as I was tired easily, I eventually started to enjoy hiking later in Southern Utah visiting national parks such as Arches, Zion, and others and enjoyed the nature and the scenery there.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0m [0m
-            [0mRecently, I have been hiking locally even seeing the Lehigh Gorge up in PA.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mAviation: When I started traveling to see family in Taiwan, I usually travel by plane. From this, it opened up my knowledge of aviation, knowing certain types of planes and looking at airports (artitecture, size and runways).[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0m I am hoping I can travel more to explore my aviation side passion.[0m
-          [36m</p>[39m
+          [36m<h1>[39m
+            [0mClick on the dropdown to see activities I do outside of computer science[0m
+          [36m</h1>[39m
+          [36m<ul[39m
+            [33mclass[39m=[32m"accordion"[39m
+          [36m>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"accordion-item "[39m
+            [36m>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"accordion-item-title"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"accordion-item-btn"[39m
+                [36m>[39m
+                  [0mChess[0m
+                [36m</button>[39m
+              [36m</h2>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"accordion-item-container"[39m
+                [33mstyle[39m=[32m"height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"accordion-item-content"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"accordion-item "[39m
+            [36m>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"accordion-item-title"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"accordion-item-btn"[39m
+                [36m>[39m
+                  [0mExercising and Hiking[0m
+                [36m</button>[39m
+              [36m</h2>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"accordion-item-container"[39m
+                [33mstyle[39m=[32m"height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"accordion-item-content"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"accordion-item "[39m
+            [36m>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"accordion-item-title"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"accordion-item-btn"[39m
+                [36m>[39m
+                  [0mTraveling[0m
+                [36m</button>[39m
+              [36m</h2>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"accordion-item-container"[39m
+                [33mstyle[39m=[32m"height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"accordion-item-content"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"accordion-item "[39m
+            [36m>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"accordion-item-title"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"accordion-item-btn"[39m
+                [36m>[39m
+                  [0mAviation[0m
+                [36m</button>[39m
+              [36m</h2>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"accordion-item-container"[39m
+                [33mstyle[39m=[32m"height: 0px;"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"accordion-item-content"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</li>[39m
+          [36m</ul>[39m
         [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -283,15 +419,15 @@ FAIL src/App.test.tsx
 -----------------------|---------|----------|---------|---------|-------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------|---------|----------|---------|---------|-------------------
-All files              |   36.61 |        0 |   28.94 |   44.06 |                   
+All files              |   51.38 |       25 |   39.47 |   60.65 |                   
  src                   |   15.38 |        0 |      50 |   15.38 |                   
   App.tsx              |     100 |      100 |     100 |     100 |                   
   index.tsx            |       0 |      100 |     100 |       0 | 7-19              
   reportWebVitals.ts   |       0 |        0 |       0 |       0 | 3-10              
- src/components        |   14.28 |        0 |   21.05 |   15.38 |                   
+ src/components        |   51.72 |     37.5 |    42.1 |   53.57 |                   
   AboutMe.tsx          |     100 |      100 |     100 |     100 |                   
-  Accordion.tsx        |       0 |        0 |       0 |       0 | 6-13              
-  AccordionItem.tsx    |       0 |        0 |       0 |       0 | 6-19              
+  Accordion.tsx        |   57.14 |        0 |      40 |   66.66 | 13,22             
+  AccordionItem.tsx    |      75 |       50 |     100 |      75 | 11-12             
   Contacts.tsx         |       0 |      100 |       0 |       0 | 7-59              
   Languages.tsx        |       0 |      100 |       0 |       0 | 8-181             
   Projects.tsx         |     100 |      100 |     100 |     100 |                   
@@ -308,5 +444,5 @@ All files              |   36.61 |        0 |   28.94 |   44.06 |
 Test Suites: 2 failed, 1 passed, 3 total
 Tests:       3 failed, 2 passed, 5 total
 Snapshots:   0 total
-Time:        3.791 s
+Time:        3.969 s
 Ran all test suites.

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maxwangdev/static/css/main.887d9762.css",
-    "main.js": "/maxwangdev/static/js/main.b0a26479.js",
+    "main.css": "/maxwangdev/static/css/main.e3c81576.css",
+    "main.js": "/maxwangdev/static/js/main.f6cef461.js",
     "static/js/787.e4d9010d.chunk.js": "/maxwangdev/static/js/787.e4d9010d.chunk.js",
     "static/media/Buccaneer.png": "/maxwangdev/static/media/Buccaneer.c2a6e58ba2f83f00c6b4.png",
     "static/media/raspberrypi.jpg": "/maxwangdev/static/media/raspberrypi.48e2cb5eddfe043b25a1.jpg",
@@ -11,12 +11,12 @@
     "static/media/programming_languages.jpg": "/maxwangdev/static/media/programming_languages.da2e24105ad2ddfac6a8.jpg",
     "static/media/MaxWang.jpg": "/maxwangdev/static/media/MaxWang.8eaf9af3fd4011eedef3.jpg",
     "index.html": "/maxwangdev/index.html",
-    "main.887d9762.css.map": "/maxwangdev/static/css/main.887d9762.css.map",
-    "main.b0a26479.js.map": "/maxwangdev/static/js/main.b0a26479.js.map",
+    "main.e3c81576.css.map": "/maxwangdev/static/css/main.e3c81576.css.map",
+    "main.f6cef461.js.map": "/maxwangdev/static/js/main.f6cef461.js.map",
     "787.e4d9010d.chunk.js.map": "/maxwangdev/static/js/787.e4d9010d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.887d9762.css",
-    "static/js/main.b0a26479.js"
+    "static/css/main.e3c81576.css",
+    "static/js/main.f6cef461.js"
   ]
 }
