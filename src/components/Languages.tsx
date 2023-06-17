@@ -128,6 +128,10 @@ export function Languages(): JSX.Element {
             like the language a lot and would be open to working with C# for my
             future career.
           </p>
+          <p>
+            I revisited the language when troubleshooting students C# problems
+            in databases fixing controller problems and nuget package errors.
+          </p>
         </div>
       ),
     },
@@ -140,6 +144,12 @@ export function Languages(): JSX.Element {
             weird syntax, I found it easy to learn and very useful for
             databases. Understanding the purpose of this language is key, as I
             used it to help store information that I need inside a database.
+          </p>
+          <p>
+            I revisited the language again when I became a teaching assistant
+            for database systems in the spring troubleshooting undergraduate
+            students problems with their queries and holding office hours for
+            students who have questions with SQL related assignments.
           </p>
         </div>
       ),
