@@ -80,7 +80,7 @@ export function AboutMe(): JSX.Element {
           <p>
             Similar to traveling, but I&apos;ve enjoyed planes ever since my
             parents took me to Taiwan to visit family. I like passanger planes
-            and my favorite is the Boeing 777. I&aposve yet to fly the airbus
+            and my favorite is the Boeing 777. I&apos;ve yet to fly the airbus
             A-380!
           </p>
           <p>
@@ -122,8 +122,9 @@ export function AboutMe(): JSX.Element {
       <p>
         The computer science courses include: Software Engineering, Algorithms,
         Automata Theory, Data Mining, Database Systems, Logic for Programming,
-        Operating Systems, Educational Game Development, Advanced Web
-        Technologies, Computer Vision and Machine Learning
+        Operating Systems, Educational Game Development,
+        <br />
+        Advanced Web Technologies, Computer Vision and Machine Learning
       </p>
       <h1>
         Click on the dropdown to see activities I do outside of computer science
