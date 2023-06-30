@@ -8,14 +8,10 @@ import { PIModal } from "./models/PIModal/PIModal";
 import react from "./assets/reactinANutshell.png";
 import pi from "./assets/raspberrypi.jpg";
 import duckies from "./assets/duckies.png";
-import { Button, Image, Modal } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import { BuccaneerModal } from "./models/BuccaneerModal/BuccaneerModal";
 import buccaneer from "./assets/Buccaneer.png";
 import styles from "./Projects.module.css";
-
-type ModalShows = {
-    CIS: boolean;
-};
 
 export function Projects(): JSX.Element {
     return (
