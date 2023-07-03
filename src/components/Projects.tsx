@@ -5,12 +5,14 @@ import { DuckModal } from "./models/DuckModal/DuckModal";
 import { CISModal } from "./models/CISModal/CISModal";
 import { RINMODAL } from "./models/RINModal/RINModal";
 import { PIModal } from "./models/PIModal/PIModal";
+import { LanguagePracticeModal } from "./models/languagePracticeModal/LanguagePracticeModal";
 import react from "./assets/reactinANutshell.png";
 import pi from "./assets/raspberrypi.jpg";
 import duckies from "./assets/duckies.png";
 import { Image } from "react-bootstrap";
 import { BuccaneerModal } from "./models/BuccaneerModal/BuccaneerModal";
 import buccaneer from "./assets/Buccaneer.png";
+import language from "./assets/LanguagePractice.png";
 import styles from "./Projects.module.css";
 
 export function Projects(): JSX.Element {
@@ -65,6 +67,14 @@ export function Projects(): JSX.Element {
                             alt="duck game"
                         />
                         <DuckModal />
+                    </div>
+                    <div className={styles.project}>
+                        <Image
+                            className={styles.project_image}
+                            src={language}
+                            alt="language practice"
+                        />
+                        <LanguagePracticeModal />
                     </div>
                 </div>
             </div>
