@@ -314,38 +314,40 @@ PASS src/components/tests/Projects.test.tsx
 
       at src/components/models/CISModal/CISModal.tsx:11:17
 
---------------------------------------|---------|----------|---------|---------|-------------------
-File                                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
---------------------------------------|---------|----------|---------|---------|-------------------
-All files                             |   48.64 |    36.36 |   33.33 |   57.14 |                   
- src                                  |       0 |        0 |       0 |       0 |                   
-  App.tsx                             |       0 |      100 |       0 |       0 | 13-17             
-  index.tsx                           |       0 |      100 |     100 |       0 | 7-19              
-  reportWebVitals.ts                  |       0 |        0 |       0 |       0 | 3-10              
- src/components                       |   48.27 |     37.5 |   36.84 |      50 |                   
-  AboutMe.tsx                         |     100 |      100 |     100 |     100 |                   
-  Accordion.tsx                       |   57.14 |        0 |      40 |   66.66 | 13,22             
-  AccordionItem.tsx                   |      75 |       50 |     100 |      75 | 11-12             
-  Contacts.tsx                        |       0 |      100 |       0 |       0 | 7-59              
-  Languages.tsx                       |       0 |      100 |       0 |       0 | 8-191             
-  Projects.tsx                        |     100 |      100 |     100 |     100 |                   
-  ViewNavbar.tsx                      |       0 |      100 |       0 |       0 | 7                 
- src/components/data                  |       0 |        0 |       0 |       0 |                   
-  LanguagesType.ts                    |       0 |        0 |       0 |       0 |                   
- src/components/models/BuccaneerModal |   66.66 |       50 |   33.33 |     100 |                   
-  BuccaneerModal.tsx                  |   66.66 |       50 |   33.33 |     100 | 21                
- src/components/models/CISModal       |      75 |       50 |      50 |     100 |                   
-  CISModal.tsx                        |      75 |       50 |      50 |     100 | 24                
- src/components/models/DuckModal      |   66.66 |       50 |   33.33 |     100 |                   
-  DuckModal.tsx                       |   66.66 |       50 |   33.33 |     100 | 21                
- src/components/models/PIModal        |   66.66 |       50 |   33.33 |     100 |                   
-  PIModal.tsx                         |   66.66 |       50 |   33.33 |     100 | 20                
- src/components/models/RINModal       |   66.66 |       50 |   33.33 |     100 |                   
-  RINModal.tsx                        |   66.66 |       50 |   33.33 |     100 | 22                
---------------------------------------|---------|----------|---------|---------|-------------------
+---------------------------------------------|---------|----------|---------|---------|-------------------
+File                                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------------------------|---------|----------|---------|---------|-------------------
+All files                                    |      50 |     37.5 |   33.33 |    59.7 |                   
+ src                                         |       0 |        0 |       0 |       0 |                   
+  App.tsx                                    |       0 |      100 |       0 |       0 | 13-17             
+  index.tsx                                  |       0 |      100 |     100 |       0 | 7-19              
+  reportWebVitals.ts                         |       0 |        0 |       0 |       0 | 3-10              
+ src/components                              |   48.27 |     37.5 |   36.84 |      50 |                   
+  AboutMe.tsx                                |     100 |      100 |     100 |     100 |                   
+  Accordion.tsx                              |   57.14 |        0 |      40 |   66.66 | 13,22             
+  AccordionItem.tsx                          |      75 |       50 |     100 |      75 | 11-12             
+  Contacts.tsx                               |       0 |      100 |       0 |       0 | 7-59              
+  Languages.tsx                              |       0 |      100 |       0 |       0 | 8-191             
+  Projects.tsx                               |     100 |      100 |     100 |     100 |                   
+  ViewNavbar.tsx                             |       0 |      100 |       0 |       0 | 7                 
+ src/components/data                         |       0 |        0 |       0 |       0 |                   
+  LanguagesType.ts                           |       0 |        0 |       0 |       0 |                   
+ src/components/models/BuccaneerModal        |   66.66 |       50 |   33.33 |     100 |                   
+  BuccaneerModal.tsx                         |   66.66 |       50 |   33.33 |     100 | 21                
+ src/components/models/CISModal              |      75 |       50 |      50 |     100 |                   
+  CISModal.tsx                               |      75 |       50 |      50 |     100 | 24                
+ src/components/models/DuckModal             |   66.66 |       50 |   33.33 |     100 |                   
+  DuckModal.tsx                              |   66.66 |       50 |   33.33 |     100 | 21                
+ src/components/models/PIModal               |   66.66 |       50 |   33.33 |     100 |                   
+  PIModal.tsx                                |   66.66 |       50 |   33.33 |     100 | 20                
+ src/components/models/RINModal              |   66.66 |       50 |   33.33 |     100 |                   
+  RINModal.tsx                               |   66.66 |       50 |   33.33 |     100 | 22                
+ src/components/models/languagePracticeModal |   66.66 |       50 |   33.33 |     100 |                   
+  LanguagePracticeModal.tsx                  |   66.66 |       50 |   33.33 |     100 | 19                
+---------------------------------------------|---------|----------|---------|---------|-------------------
 
 Test Suites: 1 failed, 1 passed, 2 total
 Tests:       2 failed, 2 passed, 4 total
 Snapshots:   0 total
-Time:        3.091 s
+Time:        3.577 s
 Ran all test suites.
