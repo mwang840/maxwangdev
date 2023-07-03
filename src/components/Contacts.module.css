@@ -4,6 +4,10 @@ p {
 
 a {
     align-items: left;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    
 }
 
 .contact {
@@ -11,5 +15,16 @@ a {
   font-size: 50px;
   color: red;
   background: beige;
+}
+
+h1{
+  display: block;
   text-align: center;
+  font-size: large;
+}
+
+h3{
+  display: block;
+  text-align: center;
+  font-size: medium;
 }
