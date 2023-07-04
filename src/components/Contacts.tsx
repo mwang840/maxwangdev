@@ -10,6 +10,7 @@ import {
     FaSpotify,
     FaInstagram,
 } from "react-icons/fa";
+import { SiCodewars } from "react-icons/si";
 import Mailto from "./Malito";
 export function Contacts(): JSX.Element {
     return (
@@ -52,6 +53,10 @@ export function Contacts(): JSX.Element {
             <h3>
                 @wang.flicks
                 <FaInstagram size={40} style={{ color: "purple" }} />
+            </h3>
+            <h3>
+                @draco_635
+                <SiCodewars size={40} style={{ color: "red" }} />
             </h3>
         </>
     );
