@@ -11,10 +11,25 @@ import {
     FaJava,
     FaNodeJs,
     FaReact,
+    FaRust,
 } from "react-icons/fa";
-import { BiLogoCPlusPlus, BiLogoTypescript } from "react-icons/bi";
+import {
+    BiLogoCPlusPlus,
+    BiLogoTypescript,
+    BiLogoGoLang,
+} from "react-icons/bi";
 import { TbSql } from "react-icons/tb";
-import { SiNumpy, SiPandas, SiExpress, SiCsharp, SiC } from "react-icons/si";
+import {
+    SiNumpy,
+    SiPandas,
+    SiExpress,
+    SiCsharp,
+    SiC,
+    SiYaml,
+    SiGnubash,
+    SiRuby,
+    SiDotnet,
+} from "react-icons/si";
 export function Languages(): JSX.Element {
     const languageItems = [
         {
@@ -84,7 +99,7 @@ export function Languages(): JSX.Element {
                         utilize C++ for my internship this summer too.
                     </p>
                     <span>
-                        <BiLogoCPlusPlus size={40} color="blue" />
+                        <BiLogoCPlusPlus size={40} color="#5E97D0" />
                     </span>
                 </div>
             ),
@@ -105,7 +120,7 @@ export function Languages(): JSX.Element {
                         for my career!
                     </p>
                     <span>
-                        <FaJs size={40} color="yellow" />
+                        <FaJs size={40} color="#F0DB4F" />
                         <FaNodeJs size={40} color="lightgreen" />
                     </span>
                 </div>
@@ -133,7 +148,7 @@ export function Languages(): JSX.Element {
                         application typescript based only!
                     </p>
                     <span>
-                        <BiLogoTypescript size={40} color="blue" />
+                        <BiLogoTypescript size={40} color="#007acc" />
                         <FaReact size={40} color="lightblue" />
                         <SiExpress size={40} color="green" />
                     </span>
@@ -187,7 +202,8 @@ export function Languages(): JSX.Element {
                         nuget package errors.
                     </p>
                     <span>
-                        <SiCsharp size={40} color="green" />
+                        <SiCsharp size={40} color="#006400" />
+                        <SiDotnet size={40} color="#006400" />
                     </span>
                 </div>
             ),
@@ -212,6 +228,57 @@ export function Languages(): JSX.Element {
                     </p>
                     <span>
                         <TbSql size={40} color="#00758f" />
+                    </span>
+                </div>
+            ),
+        },
+        {
+            title: "Rust",
+            content: (
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <p>
+                        What an unique language. First time learning a language
+                        that does not return. From a friend in college who
+                        informed that rust does not leave memory errors from c
+                        and c++. I have taken a strong liking to it and would
+                        consider to use it for the future. So far I am just
+                        learning the syntax of the language, have&apos;nt done
+                        any projects yet.
+                    </p>
+                    <span>
+                        <FaRust size={40} color="black" />
+                    </span>
+                </div>
+            ),
+        },
+        {
+            title: "GoLang",
+            content: (
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <p>
+                        A fun language I picked up last summer, understanding
+                        the syntax. It feels weird without the parenthesis
+                        around functions, but I have taken a strong liking to it
+                        so far. Hope to do more with the language soon!
+                    </p>
+                    <span>
+                        <BiLogoGoLang size={40} color="#29BEB0" />
+                    </span>
+                </div>
+            ),
+        },
+        {
+            title: "Ruby",
+            content: (
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <p>
+                        Another python inspired language, I dipped my toes into
+                        ruby. So far learning the syntax and its easy to learn.
+                        Hoping I can do more with the language and use it as an
+                        alternative for web dev in the future!
+                    </p>
+                    <span>
+                        <SiRuby size={40} color="#E0115F" />
                     </span>
                 </div>
             ),
@@ -252,6 +319,45 @@ export function Languages(): JSX.Element {
                 </div>
             ),
         },
+        {
+            title: "YAML (yet another markup language)",
+            content: (
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <p>
+                        In my sophmore year software engineering class, I was
+                        introduced to a bit of yaml from my professor. My
+                        professor explained to me that this yaml helped with
+                        deployment of my software engineering project. I&apos;ve
+                        used a yaml file to help deploy me own personal website.
+                        Further in my internship, I have started to get into the
+                        yaml syntax used for my project and to help build and
+                        deploy the software as well. Hoping to utilize yaml more
+                        in my software development career!
+                    </p>
+                    <span>
+                        <SiYaml size={40} color="red" />
+                    </span>
+                </div>
+            ),
+        },
+        {
+            title: "BASH (GNU Shell)",
+            content: (
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <p>
+                        Introduced to me in my freshman systems programming
+                        class, bash was something I have yet to understand as
+                        the syntax was confusing. But during my internship bash
+                        was being used a lot for pipeline and devops. I went to
+                        revisit bash to pick up its syntax and I hope I can
+                        learn more within devops for the future!
+                    </p>
+                    <span>
+                        <SiGnubash size={40} color="lightgreen" />
+                    </span>
+                </div>
+            ),
+        },
     ];
     return (
         <div>
@@ -260,6 +366,8 @@ export function Languages(): JSX.Element {
                 src={language}
                 alt="Programming Language"
                 className="about-me-image"
+                width="400px"
+                height="300px"
             ></img>
             <div className="container">
                 <Accordion items={languageItems}></Accordion>
