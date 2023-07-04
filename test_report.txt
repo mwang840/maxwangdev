@@ -326,8 +326,8 @@ All files                                    |   51.28 |     37.5 |   36.84 |   
   AboutMe.tsx                                |     100 |      100 |     100 |     100 |                   
   Accordion.tsx                              |   57.14 |        0 |      40 |   66.66 | 13,22             
   AccordionItem.tsx                          |      75 |       50 |     100 |      75 | 11-12             
-  Contacts.tsx                               |       0 |      100 |       0 |       0 | 15                
-  Languages.tsx                              |       0 |      100 |       0 |       0 | 19-256            
+  Contacts.tsx                               |       0 |      100 |       0 |       0 | 16                
+  Languages.tsx                              |       0 |      100 |       0 |       0 | 34-362            
   Malito.tsx                                 |       0 |      100 |       0 |       0 | 8-14              
   Projects.tsx                               |     100 |      100 |     100 |     100 |                   
   ViewNavbar.tsx                             |       0 |      100 |       0 |       0 | 7                 
@@ -350,5 +350,5 @@ All files                                    |   51.28 |     37.5 |   36.84 |   
 Test Suites: 1 failed, 1 passed, 2 total
 Tests:       2 failed, 2 passed, 4 total
 Snapshots:   0 total
-Time:        4.344 s
+Time:        4.132 s
 Ran all test suites.
