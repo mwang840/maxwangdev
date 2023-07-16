@@ -3,157 +3,24 @@
 > react-scripts test --coverage
 
 FAIL src/components/tests/AboutMe.test.tsx
-  ● Shows aboutme on website
+  ● My picture is there
 
-    TestingLibraryElementError: Unable to find an element with the text: /About Me/. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+    expect(element).toHaveAttribute("src", "MaxWang.jpg") // element.getAttribute("src") === "MaxWang.jpg"
 
-    Ignored nodes: comments, script, style
-    [36m<body>[39m
-      [36m<div>[39m
-        [36m<div>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"Typewriter"[39m
-            [33mdata-testid[39m=[32m"typewriter-wrapper"[39m
-          [36m>[39m
-            [36m<span[39m
-              [33mclass[39m=[32m"Typewriter__wrapper"[39m
-            [36m/>[39m
-            [36m<span[39m
-              [33mclass[39m=[32m"Typewriter__cursor"[39m
-            [36m>[39m
-              [0m|[0m
-            [36m</span>[39m
-          [36m</div>[39m
-          [36m<img[39m
-            [33malt[39m=[32m"Maxwell Wang"[39m
-            [33mclass[39m=[32m"about-me-image"[39m
-            [33msrc[39m=[32m"MaxWang.jpg"[39m
-          [36m/>[39m
-          [36m<h1>[39m
-            [0mGreetings[0m
-          [36m</h1>[39m
-          [36m<p>[39m
-            [0mMy name is Maxwell Wang and I am a senior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mI am interested in focusing in software engineering, web development, artificial intelligence and machine learning/data science.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mAt the University of Delaware, I have already taken or will be taking a lot of computer science courses, each one specializing in their own field.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mThe computer science courses include: Software Engineering, Algorithms, Automata Theory, Data Mining, Database Systems, Logic for Programming, Operating Systems, Educational Game Development,[0m
-            [36m<br />[39m
-            [0mAdvanced Web Technologies, Computer Vision and Machine Learning[0m
-          [36m</p>[39m
-          [36m<h1>[39m
-            [0mClick on the dropdown to see activities I do outside of computer science[0m
-          [36m</h1>[39m
-          [36m<ul[39m
-            [33mclass[39m=[32m"accordion"[39m
-          [36m>[39m
-            [36m<li[39m
-              [33mclass[39m=[32m"accordion-item "[39m
-            [36m>[39m
-              [36m<h2[39m
-                [33mclass[39m=[32m"accordion-item-title"[39m
-              [36m>[39m
-                [36m<button[39m
-                  [33mclass[39m=[32m"accordion-item-btn"[39m
-                [36m>[39m
-                  [0mChess[0m
-                [36m</button>[39m
-              [36m</h2>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"accordion-item-container"[39m
-                [33mstyle[39m=[32m"height: 0px;"[39m
-              [36m>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"accordion-item-content"[39m
-                [36m/>[39m
-              [36m</div>[39m
-            [36m</li>[39m
-            [36m<li[39m
-              [33mclass[39m=[32m"accordion-item "[39m
-            [36m>[39m
-              [36m<h2[39m
-                [33mclass[39m=[32m"accordion-item-title"[39m
-              [36m>[39m
-                [36m<button[39m
-                  [33mclass[39m=[32m"accordion-item-btn"[39m
-                [36m>[39m
-                  [0mExercising and Hiking[0m
-                [36m</button>[39m
-              [36m</h2>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"accordion-item-container"[39m
-                [33mstyle[39m=[32m"height: 0px;"[39m
-              [36m>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"accordion-item-content"[39m
-                [36m/>[39m
-              [36m</div>[39m
-            [36m</li>[39m
-            [36m<li[39m
-              [33mclass[39m=[32m"accordion-item "[39m
-            [36m>[39m
-              [36m<h2[39m
-                [33mclass[39m=[32m"accordion-item-title"[39m
-              [36m>[39m
-                [36m<button[39m
-                  [33mclass[39m=[32m"accordion-item-btn"[39m
-                [36m>[39m
-                  [0mTraveling[0m
-                [36m</button>[39m
-              [36m</h2>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"accordion-item-container"[39m
-                [33mstyle[39m=[32m"height: 0px;"[39m
-              [36m>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"accordion-item-content"[39m
-                [36m/>[39m
-              [36m</div>[39m
-            [36m</li>[39m
-            [36m<li[39m
-              [33mclass[39m=[32m"accordion-item "[39m
-            [36m>[39m
-              [36m<h2[39m
-                [33mclass[39m=[32m"accordion-item-title"[39m
-              [36m>[39m
-                [36m<button[39m
-                  [33mclass[39m=[32m"accordion-item-btn"[39m
-                [36m>[39m
-                  [0mAviation[0m
-                [36m</button>[39m
-              [36m</h2>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"accordion-item-container"[39m
-                [33mstyle[39m=[32m"height: 0px;"[39m
-              [36m>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"accordion-item-content"[39m
-                [36m/>[39m
-              [36m</div>[39m
-            [36m</li>[39m
-          [36m</ul>[39m
-        [36m</div>[39m
-      [36m</div>[39m
-    [36m</body>[39m
+    Expected the element to have attribute:
+      src="MaxWang.jpg"
+    Received:
+      src="maxwell wang new.jpg"
 
-      4 | test("Shows aboutme on website", () => {
-      5 |     render(<AboutMe/>);
-    > 6 |     const linkElement = screen.getByText(/About Me/);
-        |                                ^
-      7 |     expect(linkElement).toBeInTheDocument();
-      8 | });
-      9 |
+      11 |     render(<AboutMe/>);
+      12 |     const mw = screen.getByRole("img");
+    > 13 |     expect(mw).toHaveAttribute("src", "MaxWang.jpg");
+         |                ^
+      14 |     expect(mw).toHaveAttribute("alt", "Maxwell Wang");
+      15 | });
+      16 |
 
-      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:40:19)
-      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
-      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
-      at getByText (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
-      at Object.<anonymous> (src/components/tests/AboutMe.test.tsx:6:32)
+      at Object.<anonymous> (src/components/tests/AboutMe.test.tsx:13:16)
 
   ● User should see what I like to do besides computer science
 
@@ -163,43 +30,29 @@ FAIL src/components/tests/AboutMe.test.tsx
     [36m<body>[39m
       [36m<div>[39m
         [36m<div>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"Typewriter"[39m
-            [33mdata-testid[39m=[32m"typewriter-wrapper"[39m
-          [36m>[39m
-            [36m<span[39m
-              [33mclass[39m=[32m"Typewriter__wrapper"[39m
-            [36m/>[39m
-            [36m<span[39m
-              [33mclass[39m=[32m"Typewriter__cursor"[39m
-            [36m>[39m
-              [0m|[0m
-            [36m</span>[39m
-          [36m</div>[39m
           [36m<img[39m
             [33malt[39m=[32m"Maxwell Wang"[39m
             [33mclass[39m=[32m"about-me-image"[39m
-            [33msrc[39m=[32m"MaxWang.jpg"[39m
+            [33msrc[39m=[32m"maxwell wang new.jpg"[39m
+            [33mwidth[39m=[32m"100"[39m
           [36m/>[39m
           [36m<h1>[39m
-            [0mGreetings[0m
+            [0mAbout Me[0m
           [36m</h1>[39m
           [36m<p>[39m
-            [0mMy name is Maxwell Wang and I am a senior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mI am interested in focusing in software engineering, web development, artificial intelligence and machine learning/data science.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mAt the University of Delaware, I have already taken or will be taking a lot of computer science courses, each one specializing in their own field.[0m
-          [36m</p>[39m
-          [36m<p>[39m
-            [0mThe computer science courses include: Software Engineering, Algorithms, Automata Theory, Data Mining, Database Systems, Logic for Programming, Operating Systems, Educational Game Development,[0m
+            [0mI started my passion for computer science since high school. I always wanted to learn and understand how computers work and how programs are made.[0m
             [36m<br />[39m
-            [0mAdvanced Web Technologies, Computer Vision and Machine Learning[0m
+            [36m<br />[39m
+            [0m      Getting exposure to the STEM field utilized my anayltical and problem solving strategies. Further the classes that I've taken (math and computer science) taught me how to approach challenges and  problems with thinking, creativity and precision.[0m
+            [36m<br />[39m
+            [36m<br />[39m
+            [0m     I have taken a strong interest in math (although not picking up a major or a minor in the subject) and computer science. In the Computer Science field, I have taken a strong interest towards web development (front-end and back-end) and how to utilize a      tech stack, the theory of computation (algorithm analysis), artificial intelligence and machine learning and data science. In math, I have a strong passion for calculus, linear algebra and discrete mathmatics[0m
+            [36m<br />[39m
+            [36m<br />[39m
+            [0m     By opening myself up to those experiences, I have learned a lot of knowledge from those displicines and further strenghen my skills in those area.[0m
           [36m</p>[39m
           [36m<h1>[39m
-            [0mClick on the dropdown to see activities I do outside of computer science[0m
+            [0mTo see more besides what I study and do, click on the dropdown to see activities I do outside of computer science[0m
           [36m</h1>[39m
           [36m<ul[39m
             [33mclass[39m=[32m"accordion"[39m
@@ -317,12 +170,12 @@ PASS src/components/tests/Projects.test.tsx
 ---------------------------------------------|---------|----------|---------|---------|-------------------
 File                                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------------------------------|---------|----------|---------|---------|-------------------
-All files                                    |   51.28 |     37.5 |   36.84 |   61.53 |                   
+All files                                    |   50.64 |     37.5 |   35.13 |   60.93 |                   
  src                                         |       0 |        0 |       0 |       0 |                   
   App.tsx                                    |       0 |      100 |       0 |       0 | 13-17             
   index.tsx                                  |       0 |      100 |     100 |       0 | 7-19              
   reportWebVitals.ts                         |       0 |        0 |       0 |       0 | 3-10              
- src/components                              |   51.85 |     37.5 |   46.66 |   53.84 |                   
+ src/components                              |      50 |     37.5 |   42.85 |      52 |                   
   AboutMe.tsx                                |     100 |      100 |     100 |     100 |                   
   Accordion.tsx                              |   57.14 |        0 |      40 |   66.66 | 13,22             
   AccordionItem.tsx                          |      75 |       50 |     100 |      75 | 11-12             
@@ -350,5 +203,5 @@ All files                                    |   51.28 |     37.5 |   36.84 |   
 Test Suites: 1 failed, 1 passed, 2 total
 Tests:       2 failed, 2 passed, 4 total
 Snapshots:   0 total
-Time:        4.132 s
+Time:        3.812 s
 Ran all test suites.
