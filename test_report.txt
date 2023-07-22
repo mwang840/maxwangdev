@@ -170,12 +170,12 @@ PASS src/components/tests/Projects.test.tsx
 ---------------------------------------------|---------|----------|---------|---------|-------------------
 File                                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------------------------------|---------|----------|---------|---------|-------------------
-All files                                    |   50.64 |     37.5 |   35.13 |   60.93 |                   
+All files                                    |   49.36 |     37.5 |   34.21 |   59.09 |                   
  src                                         |       0 |        0 |       0 |       0 |                   
-  App.tsx                                    |       0 |      100 |       0 |       0 | 13-17             
+  App.tsx                                    |       0 |      100 |       0 |       0 | 14-18             
   index.tsx                                  |       0 |      100 |     100 |       0 | 7-19              
   reportWebVitals.ts                         |       0 |        0 |       0 |       0 | 3-10              
- src/components                              |      50 |     37.5 |   42.85 |      52 |                   
+ src/components                              |   46.42 |     37.5 |      40 |   48.14 |                   
   AboutMe.tsx                                |     100 |      100 |     100 |     100 |                   
   Accordion.tsx                              |   57.14 |        0 |      40 |   66.66 | 13,22             
   AccordionItem.tsx                          |      75 |       50 |     100 |      75 | 11-12             
@@ -183,7 +183,8 @@ All files                                    |   50.64 |     37.5 |   35.13 |   
   Languages.tsx                              |       0 |      100 |       0 |       0 | 34-362            
   Malito.tsx                                 |       0 |      100 |       0 |       0 | 8-14              
   Projects.tsx                               |     100 |      100 |     100 |     100 |                   
-  ViewNavbar.tsx                             |       0 |      100 |       0 |       0 | 7                 
+  Technologies.tsx                           |       0 |      100 |       0 |       0 | 12-115            
+  ViewNavbar.tsx                             |       0 |      100 |       0 |       0 | 6                 
  src/components/data                         |       0 |        0 |       0 |       0 |                   
   LanguagesType.ts                           |       0 |        0 |       0 |       0 |                   
  src/components/models/BuccaneerModal        |   66.66 |       50 |   33.33 |     100 |                   
@@ -203,5 +204,5 @@ All files                                    |   50.64 |     37.5 |   35.13 |   
 Test Suites: 1 failed, 1 passed, 2 total
 Tests:       2 failed, 2 passed, 4 total
 Snapshots:   0 total
-Time:        3.812 s
+Time:        3.928 s
 Ran all test suites.
