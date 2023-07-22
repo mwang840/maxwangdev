@@ -7,6 +7,7 @@ import { AboutMe } from "./components/AboutMe";
 import { Languages } from "./components/Languages";
 import { Projects } from "./components/Projects";
 import { Contacts } from "./components/Contacts";
+import { Technologies } from "./components/Technologies";
 import TypewriterComponent from "typewriter-effect";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
                     <Route path="/aboutme" element={<AboutMe />} />
                     <Route path="/languages" element={<Languages />} />
                     <Route path="/projects" element={<Projects />} />
+                    <Route path="/technologies" element={<Technologies />} />
                     <Route path="/contact" element={<Contacts />} />
                 </Routes>
             </BrowserRouter>

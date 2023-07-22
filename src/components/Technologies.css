@@ -1,0 +1,21 @@
+p {
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    float: none;
+    text-align: left;
+    text-indent: 5%;
+}
+
+Accordion{
+    font-weight: 200;
+}
+
+
+.about-me-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 60%;
+}
