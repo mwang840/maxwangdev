@@ -101,7 +101,8 @@ export function AboutMe(): JSX.Element {
                 src={max}
                 alt="Maxwell Wang"
                 className="about-me-image"
-                width={100}
+                width={150}
+                height={100}
             ></img>
             <h1>About Me</h1>
             <p>
@@ -120,11 +121,11 @@ export function AboutMe(): JSX.Element {
                 math (although not picking up a major or a minor in the subject)
                 and computer science. In the Computer Science field, I have
                 taken a strong interest towards web development (front-end and
-                back-end) and how to utilize a
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tech stack, the theory of
-                computation (algorithm analysis), artificial intelligence and
-                machine learning and data science. In math, I have a strong
-                passion for calculus, linear algebra and discrete mathmatics
+                back-end) and how to utilize a tech stack,the theory of
+                &nbsp;&nbsp;computation (algorithm analysis), artificial
+                intelligence and machine learning and data science. In math, I
+                have a strong passion for calculus, linear algebra and discrete
+                mathmatics
                 <br />
                 <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By opening myself up to those

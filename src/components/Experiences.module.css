@@ -1,0 +1,17 @@
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: left;
+    text-indent: 5%;
+    float: none;
+    font-weight: 200;
+}
+
+Accordion{
+    font-weight: 200;
+}
+
+
+div{
+    white-space: pre-wrap;
+}

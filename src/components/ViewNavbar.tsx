@@ -45,6 +45,19 @@ export function ViewNavbar(): JSX.Element {
                 Projects
             </NavLink>
             <NavLink
+                to="/experiences"
+                style={{
+                    textDecoration: "none",
+                    color: "black",
+                    fontSize: "40px",
+                    fontFamily: "Georgia",
+                    backgroundColor: "white",
+                    borderRadius: "10px",
+                }}
+            >
+                Experiences{" "}
+            </NavLink>
+            <NavLink
                 to="/technologies"
                 style={{
                     textDecoration: "none",
