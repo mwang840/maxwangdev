@@ -182,7 +182,7 @@ All files                                    |   47.56 |     37.5 |   33.33 |   
   AccordionItem.tsx                          |      75 |       50 |     100 |      75 | 11-12             
   Contacts.tsx                               |       0 |      100 |       0 |       0 | 16                
   Experience.tsx                             |       0 |      100 |       0 |       0 | 5-32              
-  Languages.tsx                              |       0 |      100 |       0 |       0 | 34-362            
+  Languages.tsx                              |       0 |      100 |       0 |       0 | 37-362            
   Malito.tsx                                 |       0 |      100 |       0 |       0 | 8-14              
   Projects.tsx                               |     100 |      100 |     100 |     100 |                   
   Technologies.tsx                           |       0 |      100 |       0 |       0 | 12-115            
@@ -206,5 +206,5 @@ All files                                    |   47.56 |     37.5 |   33.33 |   
 Test Suites: 1 failed, 1 passed, 2 total
 Tests:       2 failed, 2 passed, 4 total
 Snapshots:   0 total
-Time:        3.292 s
+Time:        3.386 s
 Ran all test suites.
