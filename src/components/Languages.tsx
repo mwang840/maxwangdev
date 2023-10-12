@@ -29,6 +29,9 @@ import {
     SiGnubash,
     SiRuby,
     SiDotnet,
+    SiOpencv,
+    SiScikitlearn,
+    SiPytorch,
 } from "react-icons/si";
 export function Languages(): JSX.Element {
     const languageItems = [
@@ -41,9 +44,6 @@ export function Languages(): JSX.Element {
                         I learned in high school (2019). The language also
                         introduced me towards basic computer concepts such as
                         recursion, classes, inheritance, and polymorphism.
-                        Despite it being one of my favorite languages, I have
-                        not utilized it that much, but I am eager to dip my toes
-                        into more Java-based opportunities.
                     </p>
                     <span>
                         <FaJava size={40} color="orange" />
@@ -56,20 +56,11 @@ export function Languages(): JSX.Element {
             content: (
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <p>
-                        Python was the second language, I picked up during my
-                        college career in computer science. What a weird syntax
-                        at first dealing with the language but I found it easier
-                        to write methods and logic without using a lot of lines.
-                        Probably one of my favorite dynamically-typed languages.
-                        Overall, I have grown into it and found a lot of
-                        interest in the language and looking at libraries such
-                        as Numpy, Pandas, and Pyspark libraries which are
-                        essential tools to use in the Data Science/Ai field.
-                    </p>
-                    <p>
-                        While I have yet to perform a major project with Python,
-                        I hope to continue to use it for AI/ML purposes and even
-                        make a small bot with the language.
+                        The second programming language, I learned during my
+                        school year. With Python, I gained a lot insight into
+                        its data analysis and mathmatical libaries such as
+                        Numpy, Matplotlib, OpenCv, Tensorflow, Pandas and much
+                        more.
                     </p>
                     <span>
                         <FaPython size={40} color="#ffde57" />
@@ -79,6 +70,15 @@ export function Languages(): JSX.Element {
                     </span>
                     <span>
                         <SiPandas size={40} color="purple" />
+                    </span>
+                    <span>
+                        <SiOpencv size={40} color="blue" />
+                    </span>
+                    <span>
+                        <SiScikitlearn size={40} color="yellowgreen" />
+                    </span>
+                    <span>
+                        <SiPytorch size={40} color="red"></SiPytorch>
                     </span>
                 </div>
             ),
