@@ -1,6 +1,6 @@
 /* eslint-disable indent */
 import React from "react";
-import max from "./assets/maxwell wang new.jpg";
+import max from "./assets/maxwell.jpg";
 import "./AboutMe.css";
 import { Accordion } from "./Accordion";
 
@@ -97,43 +97,33 @@ export function AboutMe(): JSX.Element {
     ];
     return (
         <div>
+            <h1>About Me</h1>
             <img
                 src={max}
                 alt="Maxwell Wang"
                 className="about-me-image"
-                width={150}
-                height={100}
             ></img>
-            <h1>About Me</h1>
             <p>
-                I started my passion for computer science since high school. I
+            Greetings, my name is Maxwell Wang and I am a senior year Computer Science Bachelors of Science student concentrating in Artificial Intelligence at the University of Delaware. I started my passion for computer science since high school. I
                 always wanted to learn and understand how computers work and how
-                programs are made.
-                <br />
-                <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Getting exposure to the
-                STEM field utilized my anayltical and problem solving
+                programs are made.&nbsp;Getting exposure to the
+                &nbsp;&nbsp;STEM field utilized my anayltical and problem solving
                 strategies. Further the classes that I&apos;ve taken (math and
-                computer science) taught me how to approach challenges and
-                &nbsp;problems with thinking, creativity and precision.
-                <br />
-                <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have taken a strong interest in
+                computer science) taught me how to approach  &nbsp;challenges and
+                problems &nbsp;&nbsp;with thinking, creativity and precision. I have taken a strong interest in
                 math (although not picking up a major or a minor in the subject)
-                and computer science. In the Computer Science field, I have
+                and computer science. In the Computer Science &nbsp;&nbsp;field, I have
                 taken a strong interest towards web development (front-end and
                 back-end) and how to utilize a tech stack,the theory of
-                &nbsp;&nbsp;computation (algorithm analysis), artificial
-                intelligence and machine learning and data science. In math, I
+                computation (algorithm analysis), artificial
+                &nbsp;&nbsp;intelligence and machine learning and data science. In math, I
                 have a strong passion for calculus, linear algebra and discrete
-                mathmatics
-                <br />
-                <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By opening myself up to those
-                experiences, I have learned a lot of knowledge from those
+                mathmatics. By opening myself up to those
+                experiences, I &nbsp;&nbsp;have learned a lot of knowledge from those
                 displicines and further strenghen my skills in those area.
             </p>
             <h1>
-                To see more besides what I study and do, click on the dropdown
+                Click on the dropdown
                 to see activities I do outside of computer science
             </h1>
             <Accordion items={activities}></Accordion>
