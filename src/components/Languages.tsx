@@ -16,7 +16,6 @@ import {
 import {
     BiLogoCPlusPlus,
     BiLogoTypescript,
-    BiLogoGoLang,
 } from "react-icons/bi";
 import { TbSql } from "react-icons/tb";
 import {
@@ -27,11 +26,11 @@ import {
     SiC,
     SiYaml,
     SiGnubash,
-    SiRuby,
     SiDotnet,
     SiOpencv,
     SiScikitlearn,
     SiPytorch,
+    SiMongodb
 } from "react-icons/si";
 export function Languages(): JSX.Element {
     const languageItems = [
@@ -43,7 +42,7 @@ export function Languages(): JSX.Element {
                         Java was the first Object-Oriented programming language
                         I learned in high school (2019). The language also
                         introduced me towards basic computer concepts such as
-                        recursion, classes, inheritance, and polymorphism.
+                        recursion, classes, inheritance, and polymorphism and of course the first infamous hello world program.
                     </p>
                     <span>
                         <FaJava size={40} color="orange" />
@@ -57,10 +56,8 @@ export function Languages(): JSX.Element {
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <p>
                         The second programming language, I learned during my
-                        school year. With Python, I gained a lot insight into
-                        its data analysis and mathmatical libaries such as
-                        Numpy, Matplotlib, OpenCv, Tensorflow, Pandas and much
-                        more.
+                        school year. I&apos;ve then used it for Machine Learning Applications, Computer Vision Applications,
+                        and Image Processing and analysis.
                     </p>
                     <span>
                         <FaPython size={40} color="#ffde57" />
@@ -88,15 +85,13 @@ export function Languages(): JSX.Element {
             content: (
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <p>
-                        C++ was another language, I picked up. A little bit
-                        better than C, learning the language helped me
-                        understand a lot about memory management. I also picked
+                        C++ was another language, I picked up. I also picked
                         up data structures that ranged from regular arrays to
                         hashmaps. In a UD-Competitive Programming Club, I used
                         C++ to learn and apply different kinds of algorithms and
-                        data structures such as DP, Sorting algorithms, Greedy
+                        data structures such as Dynamic Programming, Sorting algorithms, Greedy
                         algorithms, Graphs, and Decision Trees. Further I
-                        utilize C++ for my internship this summer too.
+                        utilize C++ for multithreading architrcture during my summer internship.
                     </p>
                     <span>
                         <BiLogoCPlusPlus size={40} color="#5E97D0" />
@@ -110,18 +105,13 @@ export function Languages(): JSX.Element {
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <p>
                         JavaScript, the other language is crucial to my career
-                        as a software developer. I taught myself JavaScript over
-                        the summer of 2022 learning the ins and outs of the
-                        language. Although I have not done that much with it, I
-                        have made a small discord bot using the discord.js
-                        library and made my first website (now an older archived
-                        version) with the language. Still, theres more with the
-                        language and I hope to continue to use JavaScript more
-                        for my career!
+                        as a software developer. Begining with understanding the syntax, to making a discord bot, I now use it for full stack web development, making complex web applications...
                     </p>
                     <span>
                         <FaJs size={40} color="#F0DB4F" />
                         <FaNodeJs size={40} color="lightgreen" />
+                        <SiExpress size={40} color="green" />
+                        <SiMongodb size={40} color="green"/>
                     </span>
                 </div>
             ),
@@ -168,7 +158,7 @@ export function Languages(): JSX.Element {
                         involves a combo of JavaScript and TypeScript with
                         important HTML and CSS tags for this website. Those two
                         languages are also the backbones of this website right
-                        now! From this, it inspired my interest in full-stack
+                        now! From this, it inspired my interest in full-stack web
                         development.
                     </p>
                     <span>
@@ -247,38 +237,6 @@ export function Languages(): JSX.Element {
                     </p>
                     <span>
                         <FaRust size={40} color="black" />
-                    </span>
-                </div>
-            ),
-        },
-        {
-            title: "GoLang",
-            content: (
-                <div style={{ display: "flex", justifyContent: "center" }}>
-                    <p>
-                        A fun language I picked up last summer, understanding
-                        the syntax. It feels weird without the parenthesis
-                        around functions, but I have taken a strong liking to it
-                        so far. Hope to do more with the language soon!
-                    </p>
-                    <span>
-                        <BiLogoGoLang size={40} color="#29BEB0" />
-                    </span>
-                </div>
-            ),
-        },
-        {
-            title: "Ruby",
-            content: (
-                <div style={{ display: "flex", justifyContent: "center" }}>
-                    <p>
-                        Another python inspired language, I dipped my toes into
-                        ruby. So far learning the syntax and its easy to learn.
-                        Hoping I can do more with the language and use it as an
-                        alternative for web dev in the future!
-                    </p>
-                    <span>
-                        <SiRuby size={40} color="#E0115F" />
                     </span>
                 </div>
             ),
