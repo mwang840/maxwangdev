@@ -5,28 +5,28 @@ import "./Contacts.module.css";
 export const Experience = (): JSX.Element => {
     const Exepriences = [
         {
-            title: "Northrop Grumman (Remote), Converting Associate Software Engineer (August 2023 - Present)",
-            content: "Part time offer from Northrop (description coming soon)",
+            title: "University of Delaware (Newark, DE), Undergraduate Teaching Assistant (upcoming Feb 2024)",
+            content: "TBA"
         },
         {
-            title: "Northrop Grumman (Roy, UT), Software Engineer Intern (June 2023-August 2023)",
+            title: "Northrop Grumman (Roy, UT) and remote, Software Engineer Intern (June 2023 - Present)",
             content:
-                "Using C++ and YAML deployment using agile methods on a software engineering team and learned DevOps, Unit Testing, Jira, Cmake, confluence and ci/cd pipeline.<br/>Served as an interim scrum master to help facilitate standups and addressed blockers from teammates with their assignments and reviewed tasks and discussed with teammates on what the team did well\n.Used the C/C++ unix and filesystem libraries to store loggers of the versions of files and when they were created",
+                "I spearheaded the development of software solutions by harnessing C++ libraries and YAML, employing agile methodologies to ensure project success. I then acquired expertise in DevOps, Unit Testing, Jira, Cmake, Confluence, and CI/CD pipeline, significantly enhancing the efficiency of software delivery within a dynamic engineering team and optimized standup meetings in the role of interim scrum master, fostering streamlined communication and task prioritization across the team for enhanced efficiency. I now contribute to the LETS team, actively engaging in refining and designing a user interface for a vehicle by leveraging an existing C/C++ codebase, with a focus on continuous improvement and innovation."
         },
         {
             title: "University of Delaware (Newark, DE), Undergraduate Teaching Assistant (Feb 2023 - May 2023)",
             content:
-                "Spring 2023: CISC- 437 (Database Systems), Teaching Physical and logical organization of databases. Data retrieval languages, relational database languages, security and integrity, concurrency, distributed databases.  Holding weekly Office Hours for Undergraduate Students and graded quizzes and exams, providing feedback",
+                "I instruct CISC 437, focusing on Database Systems, where I cover topics such as SQL, data retrieval languages, and the principles of security, integrity, as well as the physical and logical organization of databases. Additionally, I actively engage with students through office hours, conduct exams and quizzes, and provide clear and constructive feedback to a cohort of 50-60 students.",
         },
         {
             title: "University of Delaware (Newark, DE), Undergraduate Research Assistant (Jun 2022 - Jan 2023)",
             content:
-                "A research project in the sensify lab of Dr. Matthew Mauriello in the summer of 2022. Created an application using the Arduino controller and Unity to allow children on the autism spectrum to play and change music layers for a song to accommodate their listening preference. Learned Human computer interaction and utilize software engineering practices on the project",
+            "In the summer of 2022, I engaged in a research project at the Sensify Lab under the guidance of Dr. Matthew Mauriello. During this project, I developed an application employing the Arduino controller and Unity. The purpose of the application was to empower children on the autism spectrum, enabling them to customize music layers in a song to suit their individual preferences. Throughout the project, I gained valuable insights into human-computer interaction and applied sound software engineering practices.",
         },
         {
             title: "University of Delaware (Newark, DE), Computer Science for Social Good Volunteer Outreach (August 2022 - Present)",
             content:
-                "Reached out to industry companies for setting up meetings to introduce students towards industry. Redesigned the clubs website to make the website stand out and improve the user experience",
+                "I guided potential computer science students to various volunteering opportunities within the field. Additionally, I revamped the club's website, enhancing its functionality to showcase events and pose questions for club members, among other improvements.",
         },
     ];
     return (
