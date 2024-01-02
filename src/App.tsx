@@ -6,10 +6,19 @@ import styles from "./App.module.css";
 import { AboutMe } from "./components/AboutMe";
 import { Languages } from "./components/Languages";
 import { Projects } from "./components/Projects";
-import { Contacts } from "./components/Contacts";
 import { Technologies } from "./components/Technologies";
 import TypewriterComponent from "typewriter-effect";
 import { Experience } from "./components/Experience";
+import { Footer, FooterCopyright, FooterIcon, FooterTitle } from "flowbite-react";
+import {
+    FaGithub,
+    FaLinkedin,
+    FaMailBulk,
+    FaYoutube,
+    FaSpotify,
+    FaInstagram,
+} from "react-icons/fa";
+import { SiCodewars } from "react-icons/si";
 
 function App() {
     return (
@@ -37,9 +46,21 @@ function App() {
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/experiences" element={<Experience />} />
                     <Route path="/technologies" element={<Technologies />} />
-                    <Route path="/contact" element={<Contacts />} />
                 </Routes>
             </BrowserRouter>
+            <Footer container>
+                <FooterTitle title="Contact Me"/>
+                <Footer.LinkGroup>
+                <FooterIcon href="https://github.com/mwang840" icon={FaGithub}/>
+                <FooterIcon href="https://www.linkedin.com/in/maxwell-wang-08ws/" icon={FaLinkedin} />
+                <FooterIcon href="https://www.instagram.com/iammaxwellw?igsh=aDVpNzEwYXozMzl0" icon={FaInstagram} />
+                <FooterIcon href="#" icon={FaSpotify} />
+                <FooterIcon href="https://www.youtube.com/channel/UCHCqPwHUde2P-idHPUTMoqA" icon={FaYoutube} />
+                <FooterIcon href="#" icon={FaMailBulk} />
+                <FooterIcon href="https://www.codewars.com/users/draco_635" icon={SiCodewars} />
+                </Footer.LinkGroup>
+                <FooterCopyright by=" Maxwell Wang" year={2024}/>
+            </Footer>
         </div>
     );
 }
