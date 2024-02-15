@@ -5,8 +5,8 @@ import "./Experiences.module.css";
 export const Experience = (): JSX.Element => {
     const Exepriences = [
         {
-            title: "University of Delaware (Newark, DE), Undergraduate Teaching Assistant (upcoming Feb 2024)",
-            content: "TBA"
+            title: "University of Delaware (Newark, DE), Undergraduate Teaching Assistant (Feb 2024 - Present)",
+            content: "As duty as an proctor TA, it is my responsibility to schedule exams, whether it be makeup or for computer science courses and to make sure there is not a time constraint in students schedule and the exam schedule. I also report to the TA coordinator about scheduling issues, and whether slots for scheduling exams are avaliable."
         },
         {
             title: "Northrop Grumman (Roy, UT) and remote, Software Engineer Intern (June 2023 - Present)",
