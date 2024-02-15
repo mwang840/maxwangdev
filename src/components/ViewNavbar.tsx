@@ -70,19 +70,6 @@ export function ViewNavbar(): JSX.Element {
             >
                 Technologies
             </NavLink>
-            <NavLink
-                to="/contact"
-                style={{
-                    textDecoration: "none",
-                    color: "black",
-                    fontSize: "40px",
-                    fontFamily: "Georgia",
-                    backgroundColor: "white",
-                    borderRadius: "10px",
-                }}
-            >
-                Contact
-            </NavLink>
         </nav>
     );
 }

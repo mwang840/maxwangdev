@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion } from "./Accordion";
-import "./Contacts.module.css";
+import "./Experiences.module.css";
 
 export const Experience = (): JSX.Element => {
     const Exepriences = [
