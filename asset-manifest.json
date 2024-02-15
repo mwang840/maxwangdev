@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maxwangdev/static/css/main.bb30a6bd.css",
-    "main.js": "/maxwangdev/static/js/main.c51e6845.js",
+    "main.js": "/maxwangdev/static/js/main.47534905.js",
     "static/js/787.e4d9010d.chunk.js": "/maxwangdev/static/js/787.e4d9010d.chunk.js",
     "static/media/Buccaneer.png": "/maxwangdev/static/media/Buccaneer.c2a6e58ba2f83f00c6b4.png",
     "static/media/LanguagePractice.png": "/maxwangdev/static/media/LanguagePractice.b17748fc499c4297821e.png",
@@ -13,11 +13,11 @@
     "static/media/maxwell.jpg": "/maxwangdev/static/media/maxwell.5cf94082b412bba6478d.jpg",
     "index.html": "/maxwangdev/index.html",
     "main.bb30a6bd.css.map": "/maxwangdev/static/css/main.bb30a6bd.css.map",
-    "main.c51e6845.js.map": "/maxwangdev/static/js/main.c51e6845.js.map",
+    "main.47534905.js.map": "/maxwangdev/static/js/main.47534905.js.map",
     "787.e4d9010d.chunk.js.map": "/maxwangdev/static/js/787.e4d9010d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb30a6bd.css",
-    "static/js/main.c51e6845.js"
+    "static/js/main.47534905.js"
   ]
 }
