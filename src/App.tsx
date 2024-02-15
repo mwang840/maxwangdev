@@ -53,7 +53,7 @@ function App() {
                         <Footer.Icon href="https://www.linkedin.com/in/maxwell-wang-08ws/" icon={FaLinkedin} className={styles.linkedIn}/>
                         <Footer.Icon href="https://github.com/mwang840" icon={FaGithub} className={styles.github}/>
                         <Footer.Icon href="https://www.instagram.com/spectrum_dev/" icon={FaInstagram} className={styles.instagram}/>
-                        <Footer.Icon href="https://www.youtube.com/@draco4809" icon={FaYoutube} className={styles.youtube}/>
+                        <Footer.Icon href="https://www.youtube.com/channel/UCHCqPwHUde2P-idHPUTMoqA" icon={FaYoutube} className={styles.youtube}/>
                         <Footer.Icon href="https://www.codewars.com/users/draco_635" icon={SiCodewars} className={styles.youtube}/>
                         <Footer.Icon href="https://open.spotify.com/user/drqc2qyt0rhr9q575j9akkb3u" icon={FaSpotify} className={styles.spotify}/>
                 </Footer.LinkGroup>
