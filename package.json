@@ -57,7 +57,7 @@
     "@typescript-eslint/parser": "^5.46.1",
     "eslint": "^8.29.0",
     "eslint-plugin-react": "^7.31.11",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^5.0.0",
     "tslint-config-prettier": "^1.18.0"
   }
 }
